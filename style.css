@@ -12,10 +12,16 @@
   min-height: 7vh;
 }
 
+.social-container img:hover {
+  background-color: #cea5a5;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
 #toolbar nav img:hover {
-background-color: #cea5a5;
-transition: 0.3s;
-cursor: pointer;
+  background-color: #cea5a5;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 nav {
@@ -69,12 +75,3 @@ nav {
   width: 48%;
   margin: 5px 0;
 }
-
-.social-container img:hover {
-  background-color: #cea5a5;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-
-
