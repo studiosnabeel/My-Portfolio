@@ -5,9 +5,7 @@
 
 * {
   box-sizing: border-box;
-
 }
-
 
 #toolbar {
   display: flex;
@@ -16,7 +14,7 @@
 
 #toolbar nav img:hover {
 background-color: #cea5a5;
-transition: .3s;
+transition: 0.3s;
 cursor: pointer;
 }
 
@@ -28,8 +26,7 @@ nav {
   margin: 0 24px;
 }
 
-
-.hero-container{
+.hero-container {
   margin: 0 24px;
 }
 
@@ -37,50 +34,47 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   background-image: url("/Pictures/headershapes.png");
   background-repeat: no-repeat;
   position: relative;
   height: 100vh;
   font-family: 'Poppins', sans-serif;
-  color: #172B4D;
-  
-
+  color: #172b4d;
 }
 
 .hero h1 {
-  margin: 0 ;
+  margin: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  
 }
 
 .hero p {
   margin: 0;
   font-weight: 350;
   font-size: 16px;
-  
 }
 
 .hero h6 {
-  text-align:start;
+  text-align: start;
   font-weight: 500;
-  font-size:16px ;
-  margin:10px 0px;
-  
-  color: #7F8CFF;
+  font-size: 16px;
+  margin: 10px 0;
+  color: #7f8cff;
 }
 
 .social-container {
- display: flex;
- justify-content:space-between;
- width: 48%;
- margin: 5px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 48%;
+  margin: 5px 0;
 }
 
 .social-container img:hover {
   background-color: #cea5a5;
-  transition: .3s;
+  transition: 0.3s;
   cursor: pointer;
-  }
+}
+
+
+
