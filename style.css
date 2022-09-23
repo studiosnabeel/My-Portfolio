@@ -39,10 +39,13 @@ nav {
 }
 
 .hero {
+  background-position: fixed;
+  background-image: url("/Pictures/headershapes.png");
+  gap: 12px;
+  padding: 114px 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("/Pictures/headershapes.png");
   background-repeat: no-repeat;
   position: relative;
   height: 100vh;
@@ -72,6 +75,7 @@ nav {
 .social-container {
   display: flex;
   justify-content: space-between;
-  width: 48%;
+  width: 50%;
   margin: 5px 0;
+  list-style-type: none;
 }
