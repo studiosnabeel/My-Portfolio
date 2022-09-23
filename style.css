@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#toolbar {
+  display: flex;
+  min-height: 7vh;
+}
+
+.social-container img:hover {
+  background-color: #cea5a5;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#toolbar nav img:hover {
+  background-color: #cea5a5;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 24px;
+}
+
+.hero-container {
+  margin: 0 24px;
+}
+
+.hero {
+  background-position: fixed;
+  background-image: url("/Pictures/headershapes.png");
+  gap: 12px;
+  padding: 114px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  color: #172b4d;
+}
+
+.hero h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.hero p {
+  font-weight: 350;
+  font-size: 16px;
+}
+
+.hero h6 {
+  text-align: start;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 10px 0;
+  color: #7f8cff;
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 5px 0;
+  list-style-type: none;
+}
