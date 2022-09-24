@@ -18,6 +18,12 @@ body {
   min-height: 7vh;
 }
 
+.languages img {
+  padding: 16px;
+  position: relative;
+  right: 20px;
+}
+
 .social-container img:hover {
   background-color: #cea5a5;
   transition: 0.3s;
@@ -369,10 +375,6 @@ nav {
   width: 375px;
 }
 
-.arrow {
-  color: #acb7c3;
-}
-
 .languages ul {
   list-style-type: none;
 }
@@ -396,12 +398,6 @@ nav {
 .languages h4:hover {
   background-color: #7a869a;
   transition: 0.9ms;
-}
-
-.languages img {
-  padding: 16px;
-  position: relative;
-  right: 20px;
 }
 
 .languages h3 {
