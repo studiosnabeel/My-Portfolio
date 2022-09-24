@@ -104,6 +104,12 @@ nav {
   background: #fff;
 }
 
+.work p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
 .card {
   width: 327px;
   display: flex;
@@ -231,7 +237,7 @@ nav {
   padding-bottom: 24px;
 }
 
-.btn button {
+.btn a {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -244,7 +250,7 @@ nav {
   background-color: white;
 }
 
-.card ul li button {
+.card ul li a {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -343,7 +349,7 @@ nav {
   margin: 12px 2px;
 }
 
-.btn button h6 {
+.btn a h6 {
   width: 100px;
   height: 24px;
   font-style: normal;
@@ -353,7 +359,7 @@ nav {
   color: #396df2;
 }
 
-.btn button:hover {
+.btn a:hover {
   background-color: #7a869a;
   transition: 0.8ms;
 }
@@ -385,37 +391,67 @@ nav {
   align-items: center;
 }
 
-.languages h4 {
-  font-weight: 500;
-  font-size: 15px;
-  color: #253858;
-  align-self: center;
-  position: relative;
-  right: 175px;
+section .languages {
+  margin: 60px 0;
 }
 
-.languages h4:hover {
+.languages h6:hover {
   background-color: #7a869a;
   transition: 0.9ms;
 }
 
-.languages h3 {
-  margin-top: 24px;
+.lang-text h6 {
   font-weight: 500;
   font-size: 20px;
   color: black;
   align-self: center;
 }
 
-.arrow {
-  margin-top: 20px;
-  color: black;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
+.lang-box {
+  display: flex;
 }
 
-.arrow:hover {
+#lang {
+  background-color: #f7f7f9;
+  margin: 12px 0;
+}
+
+#lang img {
+  position: relative;
+  left: -3px;
+}
+
+#lang h6 {
+  position: relative;
+  left: -12px;
+}
+
+#lang h6 {
+  font-style: normal;
+  color: #253858;
+  font-weight: 500;
+  font-size: 15px;
+  margin: -1px;
+}
+
+.lang h6:hover {
   color: #acb7c3;
   transition: 0.9ms;
+}
+
+.arrow {
+  position: relative;
+  left: 50px;
+}
+
+.arrow2 {
+  position: relative;
+  left: 126px;
+}
+
+.down-arrow {
+  width: 50px;
+  position: relative;
+  bottom: 40px;
+  left: 185px;
 }
