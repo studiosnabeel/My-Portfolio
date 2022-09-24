@@ -30,6 +30,11 @@ body {
   cursor: pointer;
 }
 
+#lang img {
+  position: relative;
+  left: -3px;
+}
+
 #toolbar nav img:hover {
   background-color: #cea5a5;
   transition: 0.3s;
@@ -250,6 +255,13 @@ nav {
   background-color: white;
 }
 
+.languages a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .card ul li a {
   font-style: normal;
   font-weight: 500;
@@ -331,6 +343,13 @@ nav {
   color: #7f8cff;
 }
 
+.lang-text h6 {
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  align-self: center;
+}
+
 .tags a h6 {
   width: 29px;
   height: 16px;
@@ -384,13 +403,6 @@ nav {
   list-style-type: none;
 }
 
-.languages a {
-  text-decoration: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 section .languages {
   margin: 60px 0;
 }
@@ -398,13 +410,6 @@ section .languages {
 .languages h6:hover {
   background-color: #7a869a;
   transition: 0.9ms;
-}
-
-.lang-text h6 {
-  font-weight: 500;
-  font-size: 20px;
-  color: black;
-  align-self: center;
 }
 
 .lang-box {
@@ -416,27 +421,19 @@ section .languages {
   margin: 12px 0;
 }
 
-#lang img {
-  position: relative;
-  left: -3px;
+.lang h6:hover {
+  color: #acb7c3;
+  transition: 0.9ms;
 }
 
 #lang h6 {
   position: relative;
   left: -12px;
-}
-
-#lang h6 {
   font-style: normal;
   color: #253858;
   font-weight: 500;
   font-size: 15px;
   margin: -1px;
-}
-
-.lang h6:hover {
-  color: #acb7c3;
-  transition: 0.9ms;
 }
 
 .arrow {
