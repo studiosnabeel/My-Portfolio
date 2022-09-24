@@ -92,7 +92,7 @@ nav {
   justify-content: center;
   align-items: center;
   width: 375px;
-  height: 2788px;
+  /* height: 2788px; */
   padding: 114px 24px;
   margin: -100px 0;
   gap: 88px;
@@ -125,13 +125,13 @@ nav {
   width: 295px;
 }
 
-.about h1 {
+.about h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
 }
 
-.card ul li h1 {
+.card ul li h2 {
   max-width: 200px;
   font-style: normal;
   font-weight: 700;
@@ -265,7 +265,6 @@ nav {
   padding: 26px 0;
   gap: 8px;
   width: 203px;
-  height: 24px;
 }
 
 .tag1 {
@@ -273,11 +272,14 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 4px 12px;
+  padding: 4px 8px;
   width: 53px;
-  height: 24px;
   background: #ebebff;
   border-radius: 8px;
+}
+
+.tag1:hover {
+  background-color: #acb7c3;
 }
 
 .tag2 {
@@ -285,11 +287,14 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 4px 12px;
+  padding: 4px 8px;
   width: 45px;
-  height: 24px;
   background: #ebebff;
   border-radius: 8px;
+}
+
+.tag2:hover {
+  background-color: #acb7c3;
 }
 
 .tag3 {
@@ -297,11 +302,14 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 4px 12px;
+  padding: 4px 2px;
   width: 89px;
-  height: 24px;
   background: #ebebff;
   border-radius: 8px;
+}
+
+.tag3:hover {
+  background-color: #acb7c3;
 }
 
 .about h6 {
@@ -340,16 +348,79 @@ nav {
   color: #396df2;
 }
 
+.btn button:hover {
+  background-color: #7a869a;
+  transition: 0.8ms;
+}
+
+.btn1:hover {
+  background-color: #7a869a;
+  transition: 0.8ms;
+}
+
 .about {
   gap: 12px;
-  margin-top: 114px;
-  padding: 114px 24px;
+  margin-top: 60px;
+  padding: 100px 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: #172b4d;
   width: 375px;
-  height: 718px;
-  left: 0;
-  top: 0;
+}
+
+.arrow {
+  color: #acb7c3;
+}
+
+.languages ul {
+  list-style-type: none;
+}
+
+.languages a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.languages h4 {
+  font-weight: 500;
+  font-size: 15px;
+  color: #253858;
+  align-self: center;
+  position: relative;
+  right: 175px;
+}
+
+.languages h4:hover {
+  background-color: #7a869a;
+  transition: 0.9ms;
+}
+
+.languages img {
+  padding: 16px;
+  position: relative;
+  right: 20px;
+}
+
+.languages h3 {
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  align-self: center;
+}
+
+.arrow {
+  margin-top: 20px;
+  color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.arrow:hover {
+  color: #acb7c3;
+  transition: 0.9ms;
 }
