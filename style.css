@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
 }
 
 #toolbar {
@@ -54,8 +54,8 @@ nav {
   color: #172b4d;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
 
 .hero h1 {
@@ -96,7 +96,7 @@ nav {
   padding: 114px 24px;
   margin: -100px 0;
   gap: 88px;
-  background: #ffffff;
+  background: #fff;
 }
 
 .card {
@@ -106,7 +106,7 @@ nav {
   align-items: center;
   padding: 16px;
   gap: 12px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
@@ -123,6 +123,12 @@ nav {
   padding: 0;
   gap: 12px;
   width: 295px;
+}
+
+.about h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .card ul li h1 {
@@ -204,12 +210,6 @@ nav {
   color: #7a869a;
 }
 
-.about h1 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-}
-
 .about p {
   font-weight: 400;
   font-size: 16px;
@@ -224,6 +224,20 @@ nav {
   line-height: 24px;
   color: #344563;
   padding-bottom: 24px;
+}
+
+.btn button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background-color: white;
+  /* border-radius: 4px; */
 }
 
 .card ul li button {
@@ -317,20 +331,6 @@ nav {
   margin: 12px 2px;
 }
 
-.btn button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  width: 124px;
-  height: 48px;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  background-color: white;
-  /* border-radius: 4px; */
-}
-
 .btn button h6 {
   width: 100px;
   height: 24px;
@@ -351,6 +351,6 @@ nav {
   color: #172b4d;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
