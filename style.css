@@ -206,6 +206,17 @@ nav {
   color: #7a869a;
 }
 
+.about h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.about p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
 .card ul li p {
   width: 295px;
   height: 76px;
@@ -283,6 +294,14 @@ nav {
   border-radius: 8px;
 }
 
+.about h6 {
+  text-align: start;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 10px 0;
+  color: #7f8cff;
+}
+
 .tags a h6 {
   width: 29px;
   height: 16px;
@@ -318,7 +337,6 @@ nav {
 .btn button h6 {
   width: 100px;
   height: 24px;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -339,23 +357,4 @@ nav {
   height: 718px;
   left: 0px;
   top: 0px;
-}
-
-.about h1 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-}
-
-.about h6 {
-  text-align: start;
-  font-weight: 500;
-  font-size: 16px;
-  margin: 10px 0;
-  color: #7f8cff;
-}
-
-.about p {
-  font-weight: 400;
-  font-size: 16px;
 }
