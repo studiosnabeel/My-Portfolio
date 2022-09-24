@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Poppins";
+}
+
 #toolbar {
   display: flex;
   min-height: 7vh;
@@ -47,7 +51,6 @@ nav {
   flex-direction: column;
   justify-content: center;
   background-repeat: no-repeat;
-  font-family: "Poppins", sans-serif;
   color: #172b4d;
   width: 375px;
   height: 718px;
@@ -98,7 +101,6 @@ nav {
 
 .card {
   width: 327px;
-  /* height: 552px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,7 +127,6 @@ nav {
 
 .card ul li h1 {
   max-width: 200px;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -176,7 +177,6 @@ nav {
 .clienttext {
   width: 55px;
   height: 16px;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -187,7 +187,6 @@ nav {
 .roletext {
   width: 88px;
   height: 16px;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -198,7 +197,6 @@ nav {
 .yeartext {
   width: 29px;
   height: 16px;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -220,7 +218,6 @@ nav {
 .card ul li p {
   width: 295px;
   height: 76px;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -351,7 +348,6 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
   color: #172b4d;
   width: 375px;
   height: 718px;
