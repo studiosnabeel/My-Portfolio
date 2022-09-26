@@ -16,6 +16,7 @@ body {
 #toolbar {
   display: flex;
   min-height: 7vh;
+  border-bottom-left-radius: 23px;
 }
 
 .languages img {
@@ -25,8 +26,13 @@ body {
 }
 
 .social-container img:hover {
-  background-color: #cea5a5;
-  transition: 0.3s;
+  background-color: #6070ff;
+  transition: 0.8s;
+  cursor: pointer;
+}
+.social-container img:active {
+  background-color: #2230d2;
+  transition: 0.8s;
   cursor: pointer;
 }
 
@@ -36,8 +42,6 @@ body {
 }
 
 #toolbar nav img:hover {
-  background-color: #cea5a5;
-  transition: 0.3s;
   cursor: pointer;
 }
 
@@ -64,7 +68,7 @@ nav {
   background-repeat: no-repeat;
   color: #172b4d;
   width: 375px;
-  height: 718px;
+  /* height: 718px; */
   left: 0;
   top: 0;
 }
@@ -76,6 +80,7 @@ nav {
 }
 
 .hero p {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
 }
@@ -106,13 +111,16 @@ nav {
   padding: 114px 24px;
   margin: -100px 0;
   gap: 88px;
-  background: #fff;
+  background-color: #f7f7f9;
 }
 
 .work p {
+  width: 295px;
+  height: 76px;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
+  color: #344563;
 }
 
 .card {
@@ -160,10 +168,10 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 30px 0;
   gap: 12px;
   width: 236px;
   height: 32px;
+  margin-bottom: 12px;
 }
 
 .client {
@@ -301,10 +309,6 @@ nav {
   border-radius: 8px;
 }
 
-.tag1:hover {
-  background-color: #acb7c3;
-}
-
 .tag2 {
   text-decoration: none;
   display: flex;
@@ -316,10 +320,6 @@ nav {
   border-radius: 8px;
 }
 
-.tag2:hover {
-  background-color: #acb7c3;
-}
-
 .tag3 {
   text-decoration: none;
   display: flex;
@@ -329,10 +329,6 @@ nav {
   width: 89px;
   background: #ebebff;
   border-radius: 8px;
-}
-
-.tag3:hover {
-  background-color: #acb7c3;
 }
 
 .about h6 {
@@ -379,18 +375,36 @@ nav {
 }
 
 .btn a:hover {
-  background-color: #7a869a;
+  background: #6070ff;
   transition: 0.8ms;
+  color: white;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.btn a:active {
+  background: #2230d2;
+  transition: 0.8ms;
+  color: white;
 }
 
 .btn1:hover {
-  background-color: #7a869a;
+  background: #6070ff;
   transition: 0.8ms;
+  color: white;
+}
+
+.btn1:active {
+  background: #2230d2;
+  transition: 0.8ms;
+  color: white;
 }
 
 .about {
   gap: 12px;
-  margin-top: 60px;
+  border: 1px solid white;
+  border-top-right-radius: 50px;
+  background: white;
+  margin-top: 65px;
   padding: 100px 24px;
   display: flex;
   flex-direction: column;
@@ -399,21 +413,33 @@ nav {
   width: 375px;
 }
 
+section .languages {
+  width: 100%;
+  margin: 26px 0;
+}
+
 .languages ul {
   list-style-type: none;
 }
 
-section .languages {
-  margin: 60px 0;
+.languages h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.languages h6:hover {
-  background-color: #7a869a;
-  transition: 0.9ms;
+.languages h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #253858;
 }
 
-.lang-box {
+.lang-divs {
   display: flex;
+  align-items: center;
+  padding: 30px 0;
+  height: 32px;
 }
 
 #lang {
@@ -421,34 +447,63 @@ section .languages {
   margin: 12px 0;
 }
 
-.lang h6:hover {
-  color: #acb7c3;
-  transition: 0.9ms;
+.lang-skills {
+  display: flex;
+  align-items: baseline;
 }
 
-#lang h6 {
+.lang-arrow-down {
+  width: 10px;
+  height: 10px;
+  background: #acb7c3;
   position: relative;
-  left: -12px;
-  font-style: normal;
-  color: #253858;
-  font-weight: 500;
-  font-size: 15px;
-  margin: -1px;
+  transform: rotate(135deg);
+  left: 176px;
 }
 
-.arrow {
-  position: relative;
-  left: 50px;
+.lang-arrow-down::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: white;
+  top: 1.2px;
+  right: 1.2px;
 }
 
-.arrow2 {
+.lang-arrow-right1 {
+  width: 10px;
+  height: 10px;
+  background: #acb7c3;
   position: relative;
-  left: 126px;
+  transform: rotate(45deg);
+  left: 162px;
 }
 
-.down-arrow {
-  width: 50px;
+.lang-arrow-right1::after {
+  content: "";
+  position: absolute;
+  background: white;
+  top: 1.2px;
+  right: 1.2px;
+  width: 40px;
+  height: 40px;
+}
+.lang-arrow-right2 {
+  width: 10px;
+  height: 10px;
+  background: #acb7c3;
   position: relative;
-  bottom: 40px;
-  left: 185px;
+  transform: rotate(45deg);
+  left: 236px;
+}
+
+.lang-arrow-right2::after {
+  content: "";
+  position: absolute;
+  background: white;
+  top: 1.2px;
+  right: 1.2px;
+  width: 40px;
+  height: 40px;
 }
