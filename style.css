@@ -79,6 +79,17 @@ nav {
   font-size: 40px;
 }
 
+footer p {
+  width: 327px;
+  height: 102px;
+  margin: 19px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ebebff;
+  text-align: center;
+}
+
 .hero p {
   font-style: normal;
   font-weight: 400;
@@ -429,6 +440,17 @@ section .languages {
   list-style-type: none;
 }
 
+footer h3 {
+  width: 801px;
+  height: 56px;
+  margin-top: 120px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+
 .languages h3 {
   font-style: normal;
   font-weight: 500;
@@ -522,28 +544,6 @@ footer {
   height: 779px;
 }
 
-footer h3 {
-  width: 801px;
-  height: 56px;
-  margin-top: 120px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  color: #fff;
-  text-align: center;
-}
-
-footer p {
-  width: 327px;
-  height: 102px;
-  margin: 19px 0;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  color: #ebebff;
-  text-align: center;
-}
-
 footer form {
   display: flex;
   flex-direction: column;
@@ -604,7 +604,7 @@ footer .btn {
   font-weight: 500;
   font-size: 17px;
   color: #6070ff;
-  background: #ffffff;
+  background: #fff;
   outline: none;
   border: none;
   border-radius: 8px;
@@ -616,7 +616,6 @@ footer .btn:hover {
   background: #6070ff;
   border-radius: 8px;
   color: white;
-  box-shadow: 0px 8px 16px 0px #4053fc3d;
 }
 
 footer .btn:active {
