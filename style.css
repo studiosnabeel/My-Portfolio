@@ -579,3 +579,19 @@ footer form {
   margin: 8px 0;
   padding: 15px 0 0 16px;
 }
+
+.input::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: #b3bac5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.input-textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: #b3bac5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
