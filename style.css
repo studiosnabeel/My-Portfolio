@@ -595,3 +595,31 @@ footer form {
   font-weight: 400;
   font-size: 15px;
 }
+
+footer .btn {
+  width: 140px;
+  height: 48px;
+  padding: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #6070ff;
+  background: #ffffff;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  margin: 14px 185px 14px 0;
+}
+
+footer .btn:hover {
+  background: #6070ff;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0px 8px 16px 0px #4053fc3d;
+}
+
+footer .btn:active {
+  color: white;
+  background: #2230d2;
+}
