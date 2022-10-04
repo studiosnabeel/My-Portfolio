@@ -564,3 +564,18 @@ footer form {
   margin: 8px 0;
   padding: 0 0 0 16px;
 }
+
+.input-textarea {
+  width: 327px;
+  height: 170px;
+  border: 1px solid #cfd8dc;
+  text-align: start;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  color: #172b4d;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  margin: 8px 0;
+  padding: 15px 0 0 16px;
+}
