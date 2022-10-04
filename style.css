@@ -60,7 +60,7 @@ nav {
 
 .hero {
   background-position: fixed;
-  background-image: url("/Pictures/headershapes.png");
+  background-image: url("./Pictures/headershapes.png");
   gap: 12px;
   padding: 114px 24px;
   display: flex;
@@ -538,7 +538,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(/Pictures/Final.svg) no-repeat;
+  background: url(./Pictures/Final.svg) no-repeat;
   background-size: 100% auto;
   width: 100%;
   height: 779px;
