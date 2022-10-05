@@ -613,3 +613,51 @@ footer .btn:active {
   color: white;
   background: #2230d2;
 }
+
+@media screen and (min-width: 768px) {
+  #toolbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .hero {
+    align-items: center;
+    background-image: url(./desktopPics/Hero\ Desktop\ Background.svg);
+    background-size: 100% auto;
+    width: 1440px;
+    height: 916px;
+  }
+
+  .hero h1 {
+    margin: 120px 0 0 0;
+    font-size: 48px;
+    color: #091e42;
+    width: 920px;
+    height: 122px;
+    font-weight: 700;
+    align-items: center;
+  }
+
+  .hero p {
+    padding: 10px 0 0 0;
+    width: 920px;
+    height: 98px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #344563;
+  }
+
+  .hero h6 {
+    margin: 10px 800px 0 0;
+  }
+
+  .social-container {
+    margin: 0 746px 0 0;
+  }
+}
