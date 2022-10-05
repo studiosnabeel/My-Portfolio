@@ -26,6 +26,10 @@ body {
   right: 20px;
 }
 
+.lang-seperators img {
+  width: 327px;
+}
+
 .social-container img:hover {
   background-color: #6070ff;
   transition: 0.8s;
@@ -490,10 +494,6 @@ footer h3 {
   justify-content: center;
   align-items: center;
   margin: 0 0 0 40px;
-}
-
-.lang-seperators img {
-  width: 327px;
 }
 
 .lang-skills {
