@@ -14,6 +14,8 @@ body {
 }
 
 #toolbar {
+  padding: 0;
+  margin: 0;
   width: 100%;
   display: flex;
   min-height: 7vh;
@@ -174,7 +176,7 @@ footer p {
 }
 
 .card ul li h2 {
-  max-width: 200px;
+  width: 200px;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -253,6 +255,7 @@ footer p {
 }
 
 .about p {
+  width: 327px;
   font-weight: 400;
   font-size: 16px;
 }
@@ -425,7 +428,7 @@ footer p {
 }
 
 .about-container {
-  width: 100vw;
+  width: 100%;
   height: 1125.15px;
   margin: 100px 0 0 0;
   padding: 0;
