@@ -14,6 +14,9 @@ body {
 }
 
 #toolbar {
+  padding: 0;
+  margin: 0;
+  width: 100%;
   display: flex;
   min-height: 7vh;
   border-bottom-left-radius: 23px;
@@ -23,6 +26,10 @@ body {
   padding: 16px;
   position: relative;
   right: 20px;
+}
+
+.lang-seperators img {
+  width: 327px;
 }
 
 .social-container img:hover {
@@ -47,10 +54,10 @@ body {
 }
 
 nav {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   margin: 0 24px;
 }
 
@@ -59,16 +66,17 @@ nav {
 }
 
 .hero {
-  background-position: fixed;
-  background-image: url("/Pictures/headershapes.png");
+  background: url("./Pictures/headershapes.png") no-repeat;
+  background-size: 100% auto;
   gap: 12px;
   padding: 114px 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-repeat: no-repeat;
+  align-items: flex-start;
   color: #172b4d;
-  width: 375px;
+  width: 100%;
+  height: 650px;
   left: 0;
   top: 0;
 }
@@ -77,6 +85,17 @@ nav {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
+}
+
+footer p {
+  width: 327px;
+  height: 102px;
+  margin: 19px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ebebff;
+  text-align: center;
 }
 
 .hero p {
@@ -96,7 +115,7 @@ nav {
 .social-container {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 170px;
   margin: 5px 0;
   list-style-type: none;
 }
@@ -107,7 +126,7 @@ nav {
   grid-template-rows: 4fr;
   justify-content: center;
   align-items: center;
-  width: 375px;
+  width: 100%;
   padding: 114px 24px;
   margin: -100px 0;
   gap: 88px;
@@ -124,7 +143,7 @@ nav {
 }
 
 .card {
-  width: 327px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,10 +172,11 @@ nav {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
+  margin: 80px 0 0 0;
 }
 
 .card ul li h2 {
-  max-width: 200px;
+  width: 200px;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -235,6 +255,7 @@ nav {
 }
 
 .about p {
+  width: 327px;
   font-weight: 400;
   font-size: 16px;
 }
@@ -406,105 +427,189 @@ nav {
   color: white;
 }
 
+.about-container {
+  width: 100%;
+  height: 1125.15px;
+  margin: 100px 0 0 0;
+  padding: 0;
+}
+
 .about {
+  width: 100%;
+  height: 571px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   gap: 12px;
   border: 1px solid white;
   border-top-right-radius: 50px;
   background: white;
-  margin-top: 65px;
+  margin-top: 114px;
   padding: 100px 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   color: #172b4d;
-  width: 375px;
 }
 
 section .languages {
   width: 100%;
-  margin: 26px 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.languages ul {
-  list-style-type: none;
+footer h3 {
+  height: 56px;
+  margin-top: 120px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
 }
 
 .languages h3 {
+  width: 240px;
+  height: 24px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
 }
 
 .lang-divs {
+  width: 303px;
+  height: 66.72px;
   display: flex;
   align-items: center;
   padding: 30px 0;
-  height: 32px;
 }
 
 #lang {
   background-color: #f7f7f9;
-  margin: 12px 0;
+  margin: 10px 0;
+}
+
+.lang-seperators {
+  width: 327px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 40px;
 }
 
 .lang-skills {
   display: flex;
-  align-items: baseline;
+  padding: 20px;
+  margin: 0 54px 0 0;
 }
 
-.lang-arrow-down {
-  width: 10px;
-  height: 10px;
-  background: #acb7c3;
-  position: relative;
-  transform: rotate(135deg);
-  left: 176px;
+.fa-chevron-down {
+  width: 12px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  color: #738da8;
 }
 
-.lang-arrow-down::after {
-  content: "";
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background: white;
-  top: 1.2px;
-  right: 1.2px;
+.fa-chevron-right {
+  width: 12px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  color: #738da8;
 }
 
-.lang-arrow-right1 {
-  width: 10px;
-  height: 10px;
-  background: #acb7c3;
-  position: relative;
-  transform: rotate(45deg);
-  left: 162px;
+footer {
+  margin: 60px 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./Pictures/Final.svg) no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 779px;
+  background-color: #6070ff;
 }
 
-.lang-arrow-right1::after {
-  content: "";
-  position: absolute;
-  background: white;
-  top: 1.2px;
-  right: 1.2px;
-  width: 40px;
-  height: 40px;
+footer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0;
 }
 
-.lang-arrow-right2 {
-  width: 10px;
-  height: 10px;
-  background: #acb7c3;
-  position: relative;
-  transform: rotate(45deg);
-  left: 236px;
+.input {
+  width: 300px;
+  height: 48px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  color: #172b4d;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  margin: 8px 0;
+  padding: 0 0 0 16px;
 }
 
-.lang-arrow-right2::after {
-  content: "";
-  position: absolute;
-  background: white;
-  top: 1.2px;
-  right: 1.2px;
-  width: 40px;
-  height: 40px;
+.input-textarea {
+  width: 300px;
+  height: 170px;
+  border: 1px solid #cfd8dc;
+  text-align: start;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  color: #172b4d;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  margin: 8px 0;
+  padding: 15px 0 0 16px;
+}
+
+.input::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: #b3bac5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.input-textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: #b3bac5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+footer .btn {
+  width: 140px;
+  height: 48px;
+  padding: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #6070ff;
+  background: #fff;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  margin: 14px 160px 14px 0;
+}
+
+footer .btn:hover {
+  background: #6070ff;
+  border-radius: 8px;
+  color: white;
+}
+
+footer .btn:active {
+  color: white;
+  background: #2230d2;
 }
