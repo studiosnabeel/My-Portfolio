@@ -718,6 +718,7 @@ footer .btn:active {
 
   #swap-pos {
     order: 2;
+    flex: 1;
   }
 
   #pos-swap {
@@ -781,5 +782,17 @@ footer .btn:active {
     font-weight: 500;
     font-size: 15px;
     text-align: center;
+  }
+
+  .snapshot {
+    flex: 1;
+  }
+
+  .leftblock {
+    flex: 1;
+  }
+
+  .leftblock2 {
+    flex: 1;
   }
 }
