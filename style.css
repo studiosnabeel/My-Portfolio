@@ -185,7 +185,6 @@ footer p {
 }
 
 .card ul li h2 {
-  /* width: 200px; */
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -198,7 +197,6 @@ footer p {
   flex-direction: row;
   align-items: center;
   gap: 12px;
-  /* width: 236px; */
   height: 32px;
   margin-bottom: 12px;
 }
@@ -270,7 +268,6 @@ footer p {
 
 .card ul li p {
   width: 295px;
-  /* height: 76px; */
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -722,6 +719,26 @@ footer .btn:active {
     font-size: 40px;
   }
 
+  .w3imgmb {
+    display: none;
+  }
+
+  .w3imgdt {
+    display: block;
+  }
+
+  .snapshot {
+    flex: 1;
+  }
+
+  .leftblock {
+    flex: 1;
+  }
+
+  .leftblock2 {
+    flex: 1;
+  }
+
   #swap-pos {
     order: 2;
     flex: 1;
@@ -799,26 +816,6 @@ footer .btn:active {
     font-weight: 500;
     font-size: 15px;
     text-align: center;
-  }
-
-  .w3imgmb {
-    display: none;
-  }
-
-  .w3imgdt {
-    display: block;
-  }
-
-  .snapshot {
-    flex: 1;
-  }
-
-  .leftblock {
-    flex: 1;
-  }
-
-  .leftblock2 {
-    flex: 1;
   }
 
   footer {
