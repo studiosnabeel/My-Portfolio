@@ -660,25 +660,21 @@ footer .btn:active {
 
   .hero {
     align-items: center;
+    justify-content: center;
     background-image: url(./desktopPics/Hero\ Desktop\ Background.svg);
     background-size: 100% auto;
     height: 916px;
   }
 
   .hero h1 {
-    margin: 120px 0 0 0;
+    width: 70%;
     font-size: 48px;
     color: #091e42;
-    width: 920px;
-    height: 122px;
     font-weight: 700;
-    align-items: center;
   }
 
   .hero p {
-    padding: 10px 0 0 0;
-    width: 920px;
-    height: 98px;
+    width: 70%;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -686,10 +682,41 @@ footer .btn:active {
   }
 
   .hero h6 {
-    margin: 10px 800px 0 0;
+    margin-right: 380px;
   }
 
   .social-container {
-    margin: 0 746px 0 0;
+    margin-bottom: 130px;
+    margin-right: 326px;
+  }
+
+  #work-article-1 {
+    order: 3;
+  }
+
+  #work-article-2 {
+    order: 4;
+  }
+
+  #work-article-3 {
+    order: 1;
+  }
+
+  #work-article-4 {
+    order: 2;
+  }
+
+  .card {
+    grid-gap: 4%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #swap-pos {
+    order: 2;
+  }
+
+  #pos-swap {
+    order: 1;
   }
 }
