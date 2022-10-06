@@ -719,4 +719,9 @@ footer .btn:active {
   #pos-swap {
     order: 1;
   }
+
+  footer {
+    background-image: url(./desktopPics/Contact-form-desktop.svg);
+    background-size: 100% auto;
+  }
 }
