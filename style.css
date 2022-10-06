@@ -138,7 +138,7 @@ footer p {
 }
 
 .work p {
-  width: 295px;
+  text-align: start;
   height: 76px;
   font-style: normal;
   font-weight: 400;
@@ -161,6 +161,7 @@ footer p {
 .card ul {
   list-style: none;
   margin: -10px;
+  padding: 16px;
 }
 
 .primarytext li {
@@ -180,7 +181,7 @@ footer p {
 }
 
 .card ul li h2 {
-  width: 200px;
+  /* width: 200px; */
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -193,7 +194,7 @@ footer p {
   flex-direction: row;
   align-items: center;
   gap: 12px;
-  width: 236px;
+  /* width: 236px; */
   height: 32px;
   margin-bottom: 12px;
 }
@@ -259,14 +260,13 @@ footer p {
 }
 
 .about p {
-  width: 327px;
   font-weight: 400;
   font-size: 16px;
 }
 
 .card ul li p {
   width: 295px;
-  height: 76px;
+  /* height: 76px; */
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -433,14 +433,12 @@ footer p {
 
 .about-container {
   width: 100%;
-  height: 1125.15px;
   margin: 100px 0 0 0;
   padding: 0;
 }
 
 .about {
   width: 100%;
-  height: 571px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -449,7 +447,6 @@ footer p {
   border: 1px solid white;
   border-top-right-radius: 50px;
   background: white;
-  margin-top: 114px;
   padding: 100px 24px;
   color: #172b4d;
 }
@@ -475,11 +472,12 @@ footer h3 {
 }
 
 .languages h3 {
-  width: 240px;
-  height: 24px;
+  /* width: 240px; */
+  /* height: 24px; */
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  text-align: start;
 }
 
 .lang-divs {
@@ -504,9 +502,10 @@ footer h3 {
 }
 
 .lang-skills {
+  width: 303px;
+  height: 66.72px;
   display: flex;
-  padding: 20px;
-  margin: 0 54px 0 0;
+  padding: 20px 0;
 }
 
 .fa-chevron-down {
@@ -515,14 +514,20 @@ footer h3 {
   display: flex;
   align-items: center;
   color: #738da8;
+  padding-left: 50%;
 }
 
 .fa-chevron-right {
+  padding-left: 46%;
   width: 12px;
   height: 22px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   color: #738da8;
+}
+
+#skills-arrow {
+  padding-left: 70%;
 }
 
 footer {
@@ -686,7 +691,6 @@ footer .btn:active {
   }
 
   .social-container {
-    margin-bottom: 130px;
     margin-right: 326px;
   }
 
@@ -723,5 +727,59 @@ footer .btn:active {
   footer {
     background-image: url(./desktopPics/Contact-form-desktop.svg);
     background-size: 100% auto;
+  }
+
+  footer .btn {
+    margin-right: 0;
+  }
+
+  .about-container {
+    display: flex;
+  }
+
+  .about {
+    margin: 100px 0;
+    width: 40%;
+    padding: 0 40px;
+  }
+
+  .about h2 {
+    margin: 26px 0 0 0;
+  }
+
+  section .languages {
+    width: 60%;
+    align-items: flex-start;
+  }
+
+  .lang-row {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  #lang {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  #lang img {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-top: -20px;
+    margin-left: -40px;
+  }
+
+  #lang h6 {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
   }
 }
