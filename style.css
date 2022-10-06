@@ -677,6 +677,11 @@ footer .btn:active {
     font-weight: 700;
   }
 
+  footer p {
+    width: 569px;
+    height: 102px;
+  }
+
   .hero p {
     width: 70%;
     font-style: normal;
@@ -825,11 +830,6 @@ footer .btn:active {
 
   footer .btn {
     margin-right: 0;
-  }
-
-  footer p {
-    width: 569px;
-    height: 102px;
   }
 
   footer form {
