@@ -639,6 +639,14 @@ footer .btn:active {
     padding: 0;
   }
 
+  #toolbar nav img {
+    transition: transform 0.7s;
+  }
+
+  #toolbar nav img:hover {
+    transform: rotate(-10deg);
+  }
+
   nav {
     display: flex;
     justify-content: space-between;
