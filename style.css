@@ -639,6 +639,14 @@ footer .btn:active {
     padding: 0;
   }
 
+  #lang img {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-top: -20px;
+    margin-left: -40px;
+  }
+
   #toolbar nav img {
     transition: transform 0.7s;
   }
@@ -820,14 +828,6 @@ footer .btn:active {
     width: 100px;
     height: 100px;
     margin: 10px;
-  }
-
-  #lang img {
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    margin-top: -20px;
-    margin-left: -40px;
   }
 
   #lang h6 {
