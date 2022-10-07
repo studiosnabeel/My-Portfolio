@@ -639,6 +639,22 @@ footer .btn:active {
     padding: 0;
   }
 
+  #lang img {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-top: -20px;
+    margin-left: -40px;
+  }
+
+  #toolbar nav img {
+    transition: transform 0.7s;
+  }
+
+  #toolbar nav img:hover {
+    transform: rotate(-10deg);
+  }
+
   nav {
     display: flex;
     justify-content: space-between;
@@ -690,6 +706,18 @@ footer .btn:active {
     font-weight: 400;
     font-size: 20px;
     color: #344563;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+
+    to {
+      margin-left: 0%;
+    }
   }
 
   .hero h6 {
@@ -736,10 +764,19 @@ footer .btn:active {
 
   .snapshot {
     flex: 1;
+    transition: all 0.3s ease-in;
+  }
+
+  .snapshot:hover {
+    transform: scale(1.06);
   }
 
   .leftblock {
     flex: 1;
+  }
+
+  .btn a {
+    transition: background-color 1s ease-in-out;
   }
 
   #swap-pos {
@@ -803,14 +840,6 @@ footer .btn:active {
     width: 100px;
     height: 100px;
     margin: 10px;
-  }
-
-  #lang img {
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    margin-top: -20px;
-    margin-left: -40px;
   }
 
   #lang h6 {
