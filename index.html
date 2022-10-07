@@ -15,9 +15,16 @@
   <body>
     <header id="toolbar">
       <nav>
-        <a href=""><img src="./Pictures/My Logo.png" alt="" /> </a>
+        <a class="logo-nav" href=""
+          ><img src="./Pictures/My Logo.png" alt="" />
+        </a>
+        <ul>
+          <li>Portfolio</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
         <a href="">
-          <img src="./Pictures/Union.png" alt="Menu bar" />
+          <img class="burger-menu" src="./Pictures/Union.png" alt="Menu bar" />
         </a>
       </nav>
     </header>
@@ -26,42 +33,40 @@
       <h1>
         I'm Nabeel
         <br />
-        Glad to see
-        <br />
-        you!
+        Glad to see you!
       </h1>
-
       <p>
         I'm a software developer! I can help you build a product, feature or
         website look through some of my work and experience! If you like what
         you see and have a project you need coded, don't hesitate to contact me.
       </p>
-
       <h6>LET'S CONNECT</h6>
 
-      <ul class="social-container">
-        <li>
-          <a href=""><img src="./Pictures/Social/twitter.png" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="./Pictures/Social/linkedin.png" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="./Pictures/Social/m.png" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="./Pictures/Social/github.png" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="./Pictures/Social/victory.png" alt="" /></a>
-        </li>
-      </ul>
+      <div class="hero-socialcontainer">
+        <ul class="social-container">
+          <li>
+            <a href=""><img src="./Pictures/Social/twitter.png" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./Pictures/Social/linkedin.png" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./Pictures/Social/m.png" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./Pictures/Social/github.png" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./Pictures/Social/victory.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section class="work">
-      <article class="card">
+      <article class="card" id="work-article-1">
         <a href="" class="snapshot">
-          <img src="./Worksection Pics/snap1.png" alt="" />
+          <img src="./Worksection Pics/snap1.png" alt="" width="100%" />
         </a>
         <ul class="leftblock">
           <li .primarytext>
@@ -90,11 +95,11 @@
           </li>
         </ul>
       </article>
-      <article class="card">
-        <a href="" class="snapshot">
-          <img src="./Worksection Pics/snap2.png" alt="" />
+      <article class="card" id="work-article-2">
+        <a href="" class="snapshot" id="swap-pos">
+          <img src="./Worksection Pics/snap2.png" alt="" width="100%" />
         </a>
-        <ul class="leftblock2">
+        <ul class="leftblock2" id="pos-swap">
           <li .primarytext>
             <h2>Multi-Post Stories</h2>
             <div class="frame">
@@ -121,9 +126,20 @@
           </li>
         </ul>
       </article>
-      <article class="card">
+      <article class="card" id="work-article-3">
         <a href="" class="snapshot">
-          <img src="./Worksection Pics/snap3.png" alt="" />
+          <img
+            src="./desktopPics/newsnap.png"
+            alt=""
+            width="100%"
+            class="w3imgdt"
+          />
+          <img
+            src="./Worksection Pics/snap3.png"
+            alt=""
+            width="100%"
+            class="w3imgmb"
+          />
         </a>
         <ul class="leftblock">
           <li .primarytext>
@@ -152,11 +168,11 @@
           </li>
         </ul>
       </article>
-      <article class="card">
-        <a href="" class="snapshot">
-          <img src="./Worksection Pics/snap4.png" alt="" />
+      <article class="card" id="work-article-4">
+        <a href="" class="snapshot" id="swap-pos">
+          <img src="./Worksection Pics/snap4.png" alt="" width="100%" />
         </a>
-        <ul class="leftblock2">
+        <ul class="leftblock2" id="pos-swap">
           <li .primarytext>
             <h2>Multi-Post Stories</h2>
             <div class="frame">
@@ -226,20 +242,21 @@
           <h3>Languages</h3>
           <i class="fa-solid fa-chevron-down"></i>
         </div>
+        <div class="lang-row">
+          <div class="lang-divs" id="lang">
+            <img src="./Languages Pictures/JS.png" alt="" />
+            <h6>Javascript</h6>
+          </div>
 
-        <div class="lang-divs" id="lang">
-          <img src="./Languages Pictures/JS.png" alt="" />
-          <h6>Javascript</h6>
-        </div>
+          <div class="lang-divs" id="lang">
+            <img src="./Languages Pictures/HTML.png" alt="" />
+            <h6>HTML</h6>
+          </div>
 
-        <div class="lang-divs" id="lang">
-          <img src="./Languages Pictures/HTML.png" alt="" />
-          <h6>HTML</h6>
-        </div>
-
-        <div class="lang-divs" id="lang">
-          <img src="./Languages Pictures/CSS.png" alt="" />
-          <h6>CSS</h6>
+          <div class="lang-divs" id="lang">
+            <img src="./Languages Pictures/CSS.png" alt="" />
+            <h6>CSS</h6>
+          </div>
         </div>
 
         <div class="lang-skills">
@@ -252,7 +269,7 @@
 
         <div class="lang-skills">
           <h3>Skills</h3>
-          <i class="fa-solid fa-chevron-right"></i>
+          <i class="fa-solid fa-chevron-right" id="skills-arrow"></i>
         </div>
         <div class="lang-seperators">
           <img src="./Languages Pictures/Separator Bottom.png" alt="" />

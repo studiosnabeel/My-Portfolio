@@ -22,6 +22,10 @@ body {
   border-bottom-left-radius: 23px;
 }
 
+nav ul {
+  display: none;
+}
+
 .languages img {
   padding: 16px;
   position: relative;
@@ -114,10 +118,12 @@ footer p {
 
 .social-container {
   display: flex;
-  justify-content: space-between;
-  width: 170px;
   margin: 5px 0;
   list-style-type: none;
+}
+
+.social-container li {
+  padding-right: 18px;
 }
 
 .work {
@@ -134,7 +140,7 @@ footer p {
 }
 
 .work p {
-  width: 295px;
+  text-align: start;
   height: 76px;
   font-style: normal;
   font-weight: 400;
@@ -157,6 +163,7 @@ footer p {
 .card ul {
   list-style: none;
   margin: -10px;
+  padding: 16px;
 }
 
 .primarytext li {
@@ -168,6 +175,10 @@ footer p {
   width: 295px;
 }
 
+.w3imgdt {
+  display: none;
+}
+
 .about h2 {
   font-style: normal;
   font-weight: 700;
@@ -176,7 +187,6 @@ footer p {
 }
 
 .card ul li h2 {
-  width: 200px;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -189,7 +199,6 @@ footer p {
   flex-direction: row;
   align-items: center;
   gap: 12px;
-  width: 236px;
   height: 32px;
   margin-bottom: 12px;
 }
@@ -255,14 +264,12 @@ footer p {
 }
 
 .about p {
-  width: 327px;
   font-weight: 400;
   font-size: 16px;
 }
 
 .card ul li p {
   width: 295px;
-  height: 76px;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -429,14 +436,12 @@ footer p {
 
 .about-container {
   width: 100%;
-  height: 1125.15px;
   margin: 100px 0 0 0;
   padding: 0;
 }
 
 .about {
   width: 100%;
-  height: 571px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -445,7 +450,6 @@ footer p {
   border: 1px solid white;
   border-top-right-radius: 50px;
   background: white;
-  margin-top: 114px;
   padding: 100px 24px;
   color: #172b4d;
 }
@@ -471,11 +475,10 @@ footer h3 {
 }
 
 .languages h3 {
-  width: 240px;
-  height: 24px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  text-align: start;
 }
 
 .lang-divs {
@@ -500,9 +503,10 @@ footer h3 {
 }
 
 .lang-skills {
+  width: 303px;
+  height: 66.72px;
   display: flex;
-  padding: 20px;
-  margin: 0 54px 0 0;
+  padding: 20px 0;
 }
 
 .fa-chevron-down {
@@ -511,14 +515,20 @@ footer h3 {
   display: flex;
   align-items: center;
   color: #738da8;
+  padding-left: 50%;
 }
 
 .fa-chevron-right {
+  padding-left: 46%;
   width: 12px;
   height: 22px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   color: #738da8;
+}
+
+#skills-arrow {
+  padding-left: 70%;
 }
 
 footer {
@@ -612,4 +622,226 @@ footer .btn:hover {
 footer .btn:active {
   color: white;
   background: #2230d2;
+}
+
+@media screen and (min-width: 768px) {
+  #toolbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+
+  .burger-menu {
+    display: none;
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+  }
+
+  nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #344563;
+  }
+
+  .logo-nav {
+    margin: 0 0 0 120px;
+  }
+
+  .hero {
+    align-items: center;
+    justify-content: center;
+    background-image: url(./desktopPics/Hero\ Desktop\ Background.svg);
+    background-size: 100% auto;
+    height: 916px;
+  }
+
+  .hero h1 {
+    width: 70%;
+    font-size: 48px;
+    color: #091e42;
+    font-weight: 700;
+  }
+
+  footer p {
+    width: 569px;
+    height: 102px;
+  }
+
+  .hero p {
+    width: 70%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #344563;
+  }
+
+  .hero h6 {
+    width: 70%;
+  }
+
+  .hero-socialcontainer {
+    width: 70%;
+  }
+
+  #work-article-1 {
+    order: 3;
+  }
+
+  #work-article-2 {
+    order: 4;
+  }
+
+  #work-article-3 {
+    order: 1;
+  }
+
+  #work-article-4 {
+    order: 2;
+  }
+
+  .card {
+    grid-gap: 4%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .card h2 {
+    font-size: 40px;
+  }
+
+  .w3imgmb {
+    display: none;
+  }
+
+  .w3imgdt {
+    display: block;
+  }
+
+  .snapshot {
+    flex: 1;
+  }
+
+  .leftblock {
+    flex: 1;
+  }
+
+  #swap-pos {
+    order: 2;
+    flex: 1;
+  }
+
+  #pos-swap {
+    order: 1;
+  }
+
+  .about-container {
+    display: flex;
+  }
+
+  .about {
+    margin: 100px 0;
+    width: 46%;
+    padding: 0 100px;
+  }
+
+  .about h2 {
+    margin: 26px 0 0 0;
+  }
+
+  section .languages {
+    width: 54%;
+    align-items: flex-start;
+  }
+
+  .lang-divs {
+    width: 90%;
+  }
+
+  .lang-skills {
+    width: 90%;
+  }
+
+  .fa-chevron-right {
+    padding-left: 59%;
+  }
+
+  .fa-chevron-down {
+    padding-left: 60%;
+  }
+
+  #skills-arrow {
+    padding-left: 70%;
+  }
+
+  .lang-row {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  #lang {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  #lang img {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-top: -20px;
+    margin-left: -40px;
+  }
+
+  #lang h6 {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  footer {
+    background-image: url(./desktopPics/Contact-form-desktop.svg);
+    background-size: 100% auto;
+  }
+
+  footer .btn {
+    margin-right: 0;
+  }
+
+  footer form {
+    width: 500px;
+    margin-top: 0;
+  }
+
+  .input {
+    width: 400px;
+    margin: 14px 0;
+  }
+
+  .input-textarea {
+    width: 400px;
+    margin: 14px 0;
+  }
 }
