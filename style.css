@@ -736,6 +736,11 @@ footer .btn:active {
 
   .snapshot {
     flex: 1;
+    transition: all 0.3s ease-in;
+  }
+
+  .snapshot:hover {
+    transform: scale(1.06);
   }
 
   .leftblock {
@@ -743,7 +748,7 @@ footer .btn:active {
   }
 
   .btn a {
-    transition: all 1s ease-in-out;
+    transition: background-color 1s ease-in-out;
   }
 
   #swap-pos {
