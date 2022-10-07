@@ -118,10 +118,12 @@ footer p {
 
 .social-container {
   display: flex;
-  justify-content: space-between;
-  width: 170px;
   margin: 5px 0;
   list-style-type: none;
+}
+
+.social-container li {
+  padding-right: 18px;
 }
 
 .work {
@@ -691,11 +693,11 @@ footer .btn:active {
   }
 
   .hero h6 {
-    margin-right: 380px;
+    width: 70%;
   }
 
-  .social-container {
-    margin-right: 326px;
+  .hero-socialcontainer {
+    width: 70%;
   }
 
   #work-article-1 {
@@ -740,10 +742,6 @@ footer .btn:active {
     flex: 1;
   }
 
-  .leftblock2 {
-    flex: 1;
-  }
-
   #swap-pos {
     order: 2;
     flex: 1;
@@ -773,23 +771,23 @@ footer .btn:active {
   }
 
   .lang-divs {
-    width: 600px;
+    width: 90%;
   }
 
   .lang-skills {
-    width: 600px;
+    width: 90%;
   }
 
   .fa-chevron-right {
-    padding-left: 49%;
+    padding-left: 59%;
   }
 
   .fa-chevron-down {
-    padding-left: 50%;
+    padding-left: 60%;
   }
 
   #skills-arrow {
-    padding-left: 61%;
+    padding-left: 70%;
   }
 
   .lang-row {
