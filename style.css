@@ -742,6 +742,10 @@ footer .btn:active {
     flex: 1;
   }
 
+  .btn a {
+    transition: all 1s ease-in-out;
+  }
+
   #swap-pos {
     order: 2;
     flex: 1;
