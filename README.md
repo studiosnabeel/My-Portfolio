@@ -1,7 +1,6 @@
 Portfolio Website - Mobile first
 
-This is my second project in microverse to learn how to create mobile website using HTML, CSS, GitHub, Git, Linters. 
-
+This is my second project in microverse to learn how to create mobile website using HTML, CSS, GitHub, Git, Linters.
 
 Built With
 
@@ -20,7 +19,7 @@ git init
 git add .
 git commit -m "Add CSS to text"
 git checkout -b featured branch
-git push 
+git push
 git fetch
 git clone
 
@@ -53,3 +52,7 @@ etc
 📝 License
 
 This project is MIT licensed.
+
+Link to my Portfolio website deployed with the help of github pages:
+
+https://studiosnabeel.github.io/
