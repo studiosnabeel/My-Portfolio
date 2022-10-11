@@ -98,7 +98,7 @@ footer p {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  color: #ebebff;
+  color: black;
   text-align: center;
 }
 
@@ -250,7 +250,7 @@ footer p {
   font-weight: 600;
   font-size: 12px;
   line-height: 22px;
-  color: #7a869a;
+  color: #484e5a;
 }
 
 .yeartext {
@@ -260,7 +260,7 @@ footer p {
   font-weight: 600;
   font-size: 12px;
   line-height: 22px;
-  color: #7a869a;
+  color: #484e5a;
 }
 
 .about p {
@@ -364,7 +364,7 @@ footer p {
   font-weight: 500;
   font-size: 16px;
   margin: 10px 0;
-  color: #7f8cff;
+  color: #5964c1;
 }
 
 .lang-text h3 {
@@ -388,7 +388,7 @@ footer p {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #3f478f;
   line-height: 16px;
   text-align: center;
 }
@@ -604,7 +604,7 @@ footer .btn {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  color: #6070ff;
+  color: #3a45a5;
   background: #fff;
   outline: none;
   border: none;
