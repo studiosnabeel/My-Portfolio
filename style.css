@@ -108,12 +108,12 @@ footer p {
   font-size: 16px;
 }
 
-.hero h6 {
+.hero h2 {
   text-align: start;
   font-weight: 500;
   font-size: 16px;
   margin: 10px 0;
-  color: #7f8cff;
+  color: #5964c1;
 }
 
 .social-container {
@@ -359,7 +359,7 @@ footer p {
   border-radius: 8px;
 }
 
-.about h6 {
+.about h3 {
   text-align: start;
   font-weight: 500;
   font-size: 16px;
@@ -367,21 +367,21 @@ footer p {
   color: #7f8cff;
 }
 
-.lang-text h6 {
+.lang-text h3 {
   font-weight: 500;
   font-size: 20px;
   color: black;
   align-self: center;
 }
 
-.languages h6 {
+.languages h2 {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   color: #253858;
 }
 
-.tags a h6 {
+.tags a h3 {
   width: 29px;
   height: 16px;
   font-style: normal;
@@ -464,7 +464,7 @@ section .languages {
   align-items: center;
 }
 
-footer h3 {
+footer h2 {
   height: 56px;
   margin-top: 120px;
   font-style: normal;
@@ -720,7 +720,7 @@ footer .btn:active {
     }
   }
 
-  .hero h6 {
+  .hero h2 {
     width: 70%;
   }
 
@@ -842,7 +842,7 @@ footer .btn:active {
     margin: 10px;
   }
 
-  #lang h6 {
+  #lang h3 {
     margin-top: 10px;
     font-style: normal;
     font-weight: 500;
