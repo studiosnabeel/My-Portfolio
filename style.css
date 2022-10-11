@@ -566,6 +566,12 @@ footer form {
   padding: 0 0 0 16px;
 }
 
+label {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
 .input-textarea {
   width: 300px;
   height: 170px;
