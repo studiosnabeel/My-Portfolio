@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -10,7 +11,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #toolbar {
@@ -28,16 +29,14 @@ nav ul {
 
 .menu-bar {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   width: 0;
   height: 0;
-  background: rgba(96, 112, 255);
+  background: #6070ff;
+  backdrop-filter: blur(8px);
   mix-blend-mode: multiply;
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 100;
   overflow: hidden;
   border-bottom-left-radius: 100%;
   transition: width 0.5s, height 0.5s, border-radius 0.5s;
@@ -50,17 +49,29 @@ nav ul {
 }
 
 .menu-bar ul {
-  margin: 50px 25px;
-  padding: 30px 2px;
+  margin: 10px 25px;
+  padding: 28px 2px;
   list-style-type: none;
 }
 
+.menu-bar ul li {
+  padding: 20px 1px;
+}
+
 .menu-bar ul li a {
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   color: white;
+}
+
+.close-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 22px 24px 0 0;
 }
 
 .languages img {
@@ -107,7 +118,7 @@ nav {
 }
 
 .hero {
-  background: url("./Pictures/headershapes.png") no-repeat;
+  background: url('./Pictures/headershapes.png') no-repeat;
   background-size: 100% auto;
   gap: 12px;
   padding: 114px 24px;
@@ -594,7 +605,7 @@ footer form {
   height: 48px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #172b4d;
   font-style: normal;
   font-weight: 400;
@@ -615,7 +626,7 @@ label {
   border: 1px solid #cfd8dc;
   text-align: start;
   border-radius: 8px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #172b4d;
   font-style: normal;
   font-weight: 400;
@@ -625,7 +636,7 @@ label {
 }
 
 .input::placeholder {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #b3bac5;
   font-style: normal;
   font-weight: 400;
@@ -633,7 +644,7 @@ label {
 }
 
 .input-textarea::placeholder {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #b3bac5;
   font-style: normal;
   font-weight: 400;

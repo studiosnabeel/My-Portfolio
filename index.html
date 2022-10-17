@@ -23,13 +23,28 @@
           <li>About</li>
           <li>Contact</li>
         </ul>
-        <img
-          id="burgerMenu"
-          class="burger-menu"
-          src="./Pictures/Union.png"
-          alt="Burger Menu"
-        />
+        <div class="burger" id="burgerMenu">
+          <img
+            class="burger-menu"
+            src="./Pictures/Union.png"
+            alt="Burger Menu"
+          />
+        </div>
       </nav>
+      <div class="menu-bar" id="menuBar">
+        <ul>
+          <li class="menuLinks"><a href="#port-folio">Portfolio</a></li>
+          <li class="menuLinks"><a href="#about-me">About</a></li>
+          <li class="menuLinks"><a href="#contactMe">Contact</a></li>
+        </ul>
+        <div class="close-container">
+          <a
+            class="close-icon fa fa-times"
+            id="crossClose"
+            style="color: white; cursor: pointer"
+          ></a>
+        </div>
+      </div>
     </header>
 
     <section class="hero">
@@ -73,14 +88,8 @@
         </ul>
       </div>
     </section>
-    <div class="menu-bar" id="menuBar">
-      <ul>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-    <section class="work">
+
+    <section class="work" id="port-folio">
       <article class="card" id="work-article-1">
         <a href="" class="snapshot">
           <img
@@ -246,7 +255,7 @@
       </article>
     </section>
 
-    <section class="about-container">
+    <section class="about-container" id="about-me">
       <section class="about">
         <h2>
           About <br />
@@ -336,7 +345,7 @@
       </section>
     </section>
 
-    <footer class="contact-me">
+    <footer class="contact-me" id="contactMe">
       <h2>Contact me</h2>
 
       <p>
