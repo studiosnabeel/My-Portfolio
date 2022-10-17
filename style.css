@@ -634,7 +634,6 @@ footer .btn:active {
   #toolbar {
     display: flex;
     justify-content: space-around;
-    align-items: space-around;
   }
 
   .burger-menu {
