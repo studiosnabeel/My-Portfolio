@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -10,7 +11,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #toolbar {
@@ -24,6 +25,91 @@ body {
 
 nav ul {
   display: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menu-bar {
+  display: flex;
+  width: 0;
+  height: 0;
+  background: #6070ff;
+  backdrop-filter: blur(8px);
+  mix-blend-mode: multiply;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  border-bottom-left-radius: 100%;
+  transition: width 0.5s, height 0.5s, border-radius 0.5s;
+}
+
+.menu-bar.open-bar {
+  width: 100%;
+  height: 100vh;
+  border-bottom-left-radius: 0;
+}
+
+.menu-bar ul {
+  margin: 10px 25px;
+  padding: 28px 2px;
+  list-style-type: none;
+}
+
+.social-container li {
+  padding-right: 18px;
+}
+
+.primarytext li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 295px;
+}
+
+.menu-bar ul li {
+  padding: 20px 1px;
+}
+
+.btn a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.languages a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-bar ul li a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: white;
+}
+
+.close-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 22px 24px 0 0;
 }
 
 .languages img {
@@ -70,7 +156,7 @@ nav {
 }
 
 .hero {
-  background: url("./Pictures/headershapes.png") no-repeat;
+  background: url('./Pictures/headershapes.png') no-repeat;
   background-size: 100% auto;
   gap: 12px;
   padding: 114px 24px;
@@ -132,10 +218,6 @@ footer h2 {
   list-style-type: none;
 }
 
-.social-container li {
-  padding-right: 18px;
-}
-
 .work {
   display: grid;
   grid-template-columns: 1fr;
@@ -174,15 +256,6 @@ footer h2 {
   list-style: none;
   margin: -10px;
   padding: 16px;
-}
-
-.primarytext li {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  gap: 12px;
-  width: 295px;
 }
 
 .w3imgdt {
@@ -293,26 +366,6 @@ footer h2 {
   line-height: 24px;
   color: #344563;
   padding-bottom: 24px;
-}
-
-.btn a {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  width: 124px;
-  height: 48px;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  background-color: white;
-}
-
-.languages a {
-  text-decoration: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .card ul li a {
@@ -557,7 +610,7 @@ footer form {
   height: 48px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #172b4d;
   font-style: normal;
   font-weight: 400;
@@ -578,7 +631,7 @@ label {
   border: 1px solid #cfd8dc;
   text-align: start;
   border-radius: 8px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #172b4d;
   font-style: normal;
   font-weight: 400;
@@ -588,7 +641,7 @@ label {
 }
 
 .input::placeholder {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #b3bac5;
   font-style: normal;
   font-weight: 400;
@@ -596,7 +649,7 @@ label {
 }
 
 .input-textarea::placeholder {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #b3bac5;
   font-style: normal;
   font-weight: 400;
@@ -634,7 +687,6 @@ footer .btn:active {
   #toolbar {
     display: flex;
     justify-content: space-around;
-    align-items: space-around;
   }
 
   .burger-menu {

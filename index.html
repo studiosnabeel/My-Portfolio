@@ -19,18 +19,32 @@
           ><img src="./Pictures/My Logo.png" alt="Website Logo" />
         </a>
         <ul>
-          <li>Portfolio</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a href="#port-folio">Portfolio</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#contactMe">Contact</a></li>
         </ul>
-        <a href="">
+        <div class="burger" id="burgerMenu">
           <img
             class="burger-menu"
             src="./Pictures/Union.png"
             alt="Burger Menu"
           />
-        </a>
+        </div>
       </nav>
+      <div class="menu-bar" id="menuBar">
+        <ul>
+          <li class="menuLinks"><a href="#port-folio">Portfolio</a></li>
+          <li class="menuLinks"><a href="#about-me">About</a></li>
+          <li class="menuLinks"><a href="#contactMe">Contact</a></li>
+        </ul>
+        <div class="close-container">
+          <a
+            class="close-icon fa fa-times"
+            id="crossClose"
+            style="color: white; cursor: pointer"
+          ></a>
+        </div>
+      </div>
     </header>
 
     <section class="hero">
@@ -75,7 +89,7 @@
       </div>
     </section>
 
-    <section class="work">
+    <section class="work" id="port-folio">
       <article class="card" id="work-article-1">
         <a href="" class="snapshot">
           <img
@@ -241,7 +255,7 @@
       </article>
     </section>
 
-    <section class="about-container">
+    <section class="about-container" id="about-me">
       <section class="about">
         <h2>
           About <br />
@@ -331,7 +345,7 @@
       </section>
     </section>
 
-    <footer class="contact-me">
+    <footer class="contact-me" id="contactMe">
       <h2>Contact me</h2>
 
       <p>
@@ -376,5 +390,7 @@
         <input class="btn" type="submit" value="Get In Touch" />
       </form>
     </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>
