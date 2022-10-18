@@ -1,10 +1,11 @@
 Portfolio Website - Mobile first
 
-This is my second project in microverse to learn how to create mobile website using HTML, CSS, GitHub, Git, Linters.
+This is my second project in microverse to learn how to create mobile website using HTML, CSS,JavaScript, GitHub, Git, Linters.
+In this project we need to create a responsive Mobile burger menu with the help of JavaScript.
 
 Built With
 
-HTML CSS Git Github Linters
+HTML CSS JavaScript Git Github Linters
 
 Getting Started
 
