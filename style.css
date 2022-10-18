@@ -27,6 +27,11 @@ nav ul {
   display: none;
 }
 
+nav ul li a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
 .menu-bar {
   display: flex;
   width: 0;
