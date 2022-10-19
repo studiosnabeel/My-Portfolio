@@ -29,15 +29,8 @@ const workfiles = [
     title: 'Tonic',
     type: ['CANOPY', 'Back End', '2015'],
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    technologies: [
-      'HTML',
-      'CSS',
-      'Ruby and Rails',
-      'Javascript',
-      'github',
-      'bootstrap',
-    ],
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    technologies: ['HTML', 'CSS', 'Javascript'],
   },
   {
     id: 'Two',
@@ -48,15 +41,8 @@ const workfiles = [
     title: 'Multi-Post Stories',
     type: ['FACEBOOK', 'Full Stack Dev', '2015'],
     description:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    technologies: [
-      'HTML',
-      'Ruby on Rails',
-      'CSS',
-      'Javascript',
-      'github',
-      'bootstrap',
-    ],
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    technologies: ['HTML', 'CSS', 'Javascript'],
   },
   {
     id: 'Three',
@@ -67,15 +53,8 @@ const workfiles = [
     title: 'Facebook 360',
     type: ['CANOPY', 'BACKEND DEV', '2015'],
     description:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    technologies: [
-      'HTML',
-      'Ruby on Rails',
-      'CSS',
-      'Javascript',
-      'github',
-      'bootstrap',
-    ],
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ['HTML', 'CSS', 'Javascript'],
   },
   {
     id: 'Four',
@@ -86,15 +65,8 @@ const workfiles = [
     title: 'Uber Navigation',
     type: ['UBER', 'Lead Developer', '2018'],
     description:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    technologies: [
-      'HTML',
-      'Ruby on Rails',
-      'CSS',
-      'Javascript',
-      'github',
-      'bootstrap',
-    ],
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ['HTML', 'CSS', 'Javascript'],
   },
 ];
 
@@ -127,14 +99,11 @@ function popUp() {
           <li>${files.technologies[0]}</li>
           <li>${files.technologies[1]}</li>
           <li>${files.technologies[2]}</li>
-          <li>${files.technologies[3]}</li>
-          <li>${files.technologies[4]}</li>
-          <li>${files.technologies[5]}</li>
         </ul>
         <hr>
         <div class="pop-button">
-          <button href="">See Live</button>
-          <button href="">See Source</button>
+          <button><a href="https://studiosnabeel.github.io/">See Live</a></button>
+          <button><a href="https://github.com/studiosnabeel/studiosnabeel.github.io">See Source</a></button>
         </div>
       </div>
     </div>

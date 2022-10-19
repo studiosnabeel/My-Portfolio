@@ -751,7 +751,8 @@ footer .btn:active {
 
 .pop-container .pop-pic {
   width: 60%;
-  max-width: 100%;
+  max-width: 90%;
+  width: 100%;
 }
 
 .pop-info {
@@ -775,6 +776,26 @@ footer .btn:active {
   display: flex;
   gap: 5%;
   padding: 5px 0 0 5px;
+  border-radius: 6px;
+  border: 2px solid #396df2;
+}
+
+.pop-button button a {
+  text-decoration: none;
+  color: #396df2;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 5px 16px;
+  text-align: center;
+}
+
+.pop-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 40px;
 }
 
 .pop-button .live-btn {
@@ -1086,7 +1107,10 @@ footer .btn:active {
   }
 
   .pop-container h2 {
-    padding: 20px 0 0 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    padding: 20px 0 20px 40px;
   }
 
   .pop-tech {
@@ -1097,6 +1121,10 @@ footer .btn:active {
 
   .pop-container .canopy {
     list-style-type: none;
+    color: #344563;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
   }
 
   .pop-container .preview-img {
