@@ -535,15 +535,15 @@ section .languages {
 
 .lang-divs {
   width: 303px;
-  height: 66.72px;
+  max-width: 100%;
   display: flex;
   align-items: center;
-  padding: 30px 0;
+  margin-top: 10px;
 }
 
 #lang {
   background-color: #f7f7f9;
-  margin: 10px 0;
+  margin: 20px 0 0 0;
 }
 
 .lang-seperators {
@@ -556,7 +556,7 @@ section .languages {
 
 .lang-skills {
   width: 303px;
-  height: 66.72px;
+  max-width: 100%;
   display: flex;
   padding: 20px 0;
 }
@@ -572,8 +572,6 @@ section .languages {
 
 .fa-chevron-right {
   padding-left: 46%;
-  width: 12px;
-  height: 22px;
   display: flex;
   align-items: flex-end;
   color: #738da8;
