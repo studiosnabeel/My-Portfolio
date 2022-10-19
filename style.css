@@ -178,8 +178,7 @@ nav {
 }
 
 footer p {
-  width: 327px;
-  height: 102px;
+  width: 80%;
   margin: 19px 0;
   font-style: normal;
   font-weight: 400;
@@ -195,7 +194,7 @@ footer p {
 }
 
 footer h2 {
-  height: 56px;
+  width: 80%;
   margin-top: 120px;
   font-style: normal;
   font-weight: 700;
@@ -219,6 +218,8 @@ footer h2 {
 }
 
 .work {
+  min-width: 100%;
+  min-height: fit-content;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 4fr;
@@ -241,11 +242,12 @@ footer h2 {
 }
 
 .card {
+  min-width: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
+  padding-top: 16px;
   gap: 12px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -324,8 +326,7 @@ footer h2 {
 }
 
 .clienttext {
-  width: 55px;
-  height: 16px;
+  flex: 1;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -334,8 +335,7 @@ footer h2 {
 }
 
 .roletext {
-  width: 88px;
-  height: 16px;
+  flex: 1;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -344,8 +344,7 @@ footer h2 {
 }
 
 .yeartext {
-  width: 29px;
-  height: 16px;
+  flex: 1;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -464,7 +463,7 @@ footer h2 {
 }
 
 .btn {
-  width: 295px;
+  width: 100%;
   height: 72px;
   margin: 12px 2px;
 }
@@ -606,8 +605,8 @@ footer form {
 }
 
 .input {
-  width: 300px;
-  height: 48px;
+  width: 100%;
+  height: 16%;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
@@ -626,8 +625,8 @@ label {
 }
 
 .input-textarea {
-  width: 300px;
-  height: 170px;
+  width: 100%;
+  height: 50%;
   border: 1px solid #cfd8dc;
   text-align: start;
   border-radius: 8px;
@@ -657,8 +656,8 @@ label {
 }
 
 footer .btn {
-  width: 140px;
-  height: 48px;
+  width: 50%;
+  height: 16%;
   padding: 0.75rem;
   font-style: normal;
   font-weight: 500;
@@ -669,7 +668,7 @@ footer .btn {
   border: none;
   border-radius: 8px;
   text-align: center;
-  margin: 14px 160px 14px 0;
+  margin: 14px 136px 14px 0;
 }
 
 footer .btn:hover {
@@ -924,6 +923,7 @@ footer .btn:active {
   }
 
   .card h2 {
+    min-width: 100%;
     font-size: 40px;
   }
 
@@ -936,6 +936,7 @@ footer .btn:active {
   }
 
   .snapshot {
+    width: 100%;
     flex: 1;
     transition: all 0.3s ease-in;
   }
