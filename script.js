@@ -19,9 +19,9 @@ menuLinks.forEach((item) => {
 
 // details popup window
 
-const projectData = [
+const workfiles = [
   {
-    id: 'p-1',
+    id: 'One',
     img: {
       src: './Worksection Pics/snap1.png',
       alt: 'First Project demo',
@@ -40,7 +40,7 @@ const projectData = [
     ],
   },
   {
-    id: 'p-2',
+    id: 'Two',
     img: {
       src: './Worksection Pics/snap2.png',
       alt: 'Second Project demo',
@@ -59,7 +59,7 @@ const projectData = [
     ],
   },
   {
-    id: 'p-3',
+    id: 'Three',
     img: {
       src: './Worksection Pics/snap3.png',
       alt: 'Third Project demo',
@@ -78,7 +78,7 @@ const projectData = [
     ],
   },
   {
-    id: 'p-4',
+    id: 'Four',
     img: {
       src: './Worksection Pics/snap4.png',
       alt: 'Fourth Project demo',
@@ -97,3 +97,79 @@ const projectData = [
     ],
   },
 ];
+
+const popMain = document.querySelector('.pop-section');
+
+function popUp() {
+  workfiles.forEach((files) => {
+    popMain.innerHTML += `
+
+    <div class="pop-container" 
+    files-target="${files.id}">
+    <i class="fa fa-close" style="font-size:24px"></i>
+    <h2>${files.title}</h2> 
+
+
+    <ul class="pop-tech">
+    <li class="canopy">${files.type[0]}</li>
+    <li>${files.type[1]}</li>
+    <li>${files.type[2]}</li>
+  </ul>
+  <div class="preview-img">
+    <img class="pop-pic" src="${files.img.src}" alt="${files.img.alt}" />
+    <div class="pop-info">
+      <p>
+        ${files.description}
+       
+      </p>
+      <div class="pop-view-2">
+        <ul class="pop2-lang">
+          <li>${files.technologies[0]}</li>
+          <li>${files.technologies[1]}</li>
+          <li>${files.technologies[2]}</li>
+          <li>${files.technologies[3]}</li>
+          <li>${files.technologies[4]}</li>
+          <li>${files.technologies[5]}</li>
+        </ul>
+        <hr>
+        <div class="pop-button">
+          <button href="">See Live</button>
+          <button href="">See Source</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      `;
+  });
+}
+
+popUp();
+
+const popSection = document.querySelector('.pop-section');
+const popContainer = popSection.querySelectorAll('.pop-container');
+
+document.querySelectorAll('.work-button').forEach((project) => {
+  project.onclick = () => {
+    popSection.style.display = 'flex';
+
+    const name = project.getAttribute('data-name');
+
+    popContainer.forEach((preview) => {
+      const target = preview.getAttribute('files-target');
+
+      if (name === target) {
+        preview.classList.add('active');
+      }
+    });
+  };
+});
+
+popContainer.forEach((close) => {
+  close.querySelector('.fa-close').onclick = () => {
+    close.classList.remove('active');
+    popSection.style.display = 'none';
+  };
+});
