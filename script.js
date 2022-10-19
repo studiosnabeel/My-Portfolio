@@ -16,3 +16,5 @@ menuLinks.forEach((item) => {
     menuBar.classList.toggle('open-bar');
   });
 });
+
+// details popup window
