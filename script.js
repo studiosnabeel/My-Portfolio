@@ -102,8 +102,8 @@ function popUp() {
         </ul>
         <hr>
         <div class="pop-button">
-          <button><a href="https://studiosnabeel.github.io/">See Live</a><img src="./Pictures/Social/github.png"></button>
-          <button><a href="https://github.com/studiosnabeel/studiosnabeel.github.io">See Source</a><img src="./Pictures/Social/github.png"></button>
+          <button><a href="https://studiosnabeel.github.io/">See Live</a><img src="./Pictures/Social/icon-see-live.png"></button>
+          <button><a href="https://github.com/studiosnabeel/studiosnabeel.github.io">See Source</a><img src="./Pictures/Social/icon-see-source.png"></button>
         </div>
       </div>
     </div>
