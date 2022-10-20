@@ -757,7 +757,6 @@ footer .btn:active {
   right: 0;
   position: absolute;
   padding: 25px 38px 0 0;
-  cursor: pointer;
 }
 
 .pop-tech {
@@ -1215,13 +1214,11 @@ footer .btn:active {
     border-radius: 6px;
     color: #6070ff;
     font-size: 12px;
-    /* padding: 4px 12px 4px 12px; */
   }
 
   .msg.active {
     font-size: 16px;
     color: rgb(222, 119, 119);
     font-weight: bold;
-    /* margin-top: 20px; */
   }
 }
