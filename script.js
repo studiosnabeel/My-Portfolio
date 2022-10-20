@@ -142,3 +142,9 @@ popContainer.forEach((close) => {
     popSection.style.display = 'none';
   };
 });
+
+// Form Validation javascript
+
+const form = document.querySelector('.form-js');
+const email = document.querySelector('#email-js');
+const error = document.querySelector('.error-js');
