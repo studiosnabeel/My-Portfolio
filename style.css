@@ -751,11 +751,12 @@ footer .btn:active {
 }
 
 .pop-container i {
-  position: relative;
-  left: 308px;
-  top: 52px;
   cursor: pointer;
   color: #67798e;
+  right: 0;
+  position: absolute;
+  padding: 25px 38px 0 0;
+  cursor: pointer;
 }
 
 .pop-tech {
@@ -1136,7 +1137,7 @@ footer .btn:active {
   .pop-container i {
     right: 0;
     position: absolute;
-    padding: 25px 20px 0 0;
+    padding: 25px 50px 0 0;
     cursor: pointer;
   }
 
