@@ -75,7 +75,7 @@ nav ul li a {
 .pop2-lang li {
   background: #ebebff;
   color: #6070ff;
-  margin: 0 auto;
+  margin: 14px 10px 20px 0;
   border-radius: 8px;
   padding: 2px 8px;
   font-size: 12px;
@@ -287,8 +287,14 @@ footer h2 {
 }
 
 .pop-container h2 {
-  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: start;
   font-size: 20px;
+  margin: 14px 0 0 20px;
+  color: #172b4d;
 }
 
 .card ul li h2 {
@@ -736,11 +742,27 @@ footer .btn:active {
   display: flex;
   gap: 20px;
   font-size: 14px;
-  justify-content: center;
+  justify-content: flex-start;
+  margin: 14px 0 14px 20px;
+}
+
+.pop-tech li {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: #7a869a;
 }
 
 .pop-container .canopy {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
   list-style-type: none;
+  color: #344563;
+  text-align: center;
 }
 
 .pop-container .preview-img {
@@ -767,8 +789,8 @@ footer .btn:active {
 }
 
 .pop-view-2 .pop2-lang {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: flex-start;
   list-style: none;
 }
 
@@ -796,6 +818,8 @@ footer .btn:active {
   align-items: center;
   gap: 15px;
   margin-top: 40px;
+  padding: 8px;
+  height: ;
 }
 
 .pop-button .live-btn {
@@ -1107,6 +1131,7 @@ footer .btn:active {
   }
 
   .pop-container h2 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
