@@ -722,6 +722,19 @@ footer .btn:active {
   background: #2230d2;
 }
 
+.error-js {
+  width: 70%;
+  font-size: 14px;
+  color: rgb(222, 119, 119);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 70px;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
 /* ============Mobile pop view========== */
 
 .pop-section {
