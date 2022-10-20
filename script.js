@@ -23,7 +23,7 @@ const workfiles = [
   {
     id: 'One',
     img: {
-      src: './Worksection Pics/snap1.png',
+      src: './Worksection Pics/dsk1.png',
       alt: 'First Project demo',
     },
     title: 'Tonic',
@@ -35,7 +35,7 @@ const workfiles = [
   {
     id: 'Two',
     img: {
-      src: './Worksection Pics/snap2.png',
+      src: './Worksection Pics/dsk2.png',
       alt: 'Second Project demo',
     },
     title: 'Multi-Post Stories',
@@ -47,7 +47,7 @@ const workfiles = [
   {
     id: 'Three',
     img: {
-      src: './Worksection Pics/snap3.png',
+      src: './desktopPics/newsnap.png',
       alt: 'Third Project demo',
     },
     title: 'Facebook 360',
@@ -59,7 +59,7 @@ const workfiles = [
   {
     id: 'Four',
     img: {
-      src: './Worksection Pics/snap4.png',
+      src: './Worksection Pics/dsk4.png',
       alt: 'Fourth Project demo',
     },
     title: 'Uber Navigation',
@@ -102,8 +102,8 @@ function popUp() {
         </ul>
         <hr>
         <div class="pop-button">
-          <button><a href="https://studiosnabeel.github.io/">See Live</a></button>
-          <button><a href="https://github.com/studiosnabeel/studiosnabeel.github.io">See Source</a></button>
+          <button><a href="https://studiosnabeel.github.io/">See Live</a><img src="./Pictures/Social/github.png"></button>
+          <button><a href="https://github.com/studiosnabeel/studiosnabeel.github.io">See Source</a><img src="./Pictures/Social/github.png"></button>
         </div>
       </div>
     </div>
