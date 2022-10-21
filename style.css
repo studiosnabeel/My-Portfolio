@@ -751,7 +751,6 @@ footer .btn:active {
 }
 
 .pop-section .pop-container {
-  margin: 2% 5% 2% 4%;
   background: #fff;
   border-radius: 20px;
   position: relative;
@@ -1127,12 +1126,10 @@ footer .btn:active {
   }
 
   .pop-section .pop-container {
-    margin: 10% 15% 10% 15%;
     background: #fff;
     border-radius: 20px;
     position: relative;
     display: none;
-    max-height: 720px;
   }
 
   .pop-section .pop-container.active {
