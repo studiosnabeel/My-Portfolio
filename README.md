@@ -56,4 +56,4 @@ This project is MIT licensed.
 
 Link to my Portfolio website deployed with the help of github pages:
 
-https://studiosnabeel.github.io/
+https://studiosnabeel.github.io/My-Portfolio/
