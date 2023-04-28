@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -120,7 +124,7 @@ nav ul li a {
   align-items: center;
 }
 
-.pop-button button a {
+.pop-a {
   text-decoration: none;
   color: #396df2;
   font-style: normal;
@@ -422,6 +426,7 @@ footer h2 {
   border-radius: 8px;
   padding: 12px;
   align-self: flex-start;
+  text-decoration: none;
 }
 
 .tags {
@@ -430,7 +435,7 @@ footer h2 {
   align-items: center;
   padding: 26px 0;
   gap: 8px;
-  width: 203px;
+  width: 100%;
 }
 
 .tag1 {
@@ -564,7 +569,7 @@ footer h2 {
 section .languages {
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 26px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -572,12 +577,17 @@ section .languages {
 }
 
 .lang-divs {
-  /* width: 303px; */
-  max-width: 100%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
+}
+
+.lang-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
 }
 
 #lang {
@@ -593,13 +603,15 @@ section .languages {
   margin: 0 0 0 40px;
 }
 
+.lang-row {
+  width: 100%;
+}
+
 .lang-skills {
-  /* width: 303px; */
-  max-width: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  /* margin-top: 20px; */
-  padding: 20px 0;
+  padding: 20px 10px;
 }
 
 .fa-chevron-down {
@@ -1041,22 +1053,11 @@ footer .btn:active {
   }
 
   .lang-skills {
-    width: 90%;
-  }
-
-  .fa-chevron-right {
-    /* padding-left: 59%; */
-  }
-
-  .fa-chevron-down {
-    /* padding-left: 60%; */
-  }
-
-  #skills-arrow {
-    /* padding-left: 70%; */
+    width: 100%;
   }
 
   .lang-row {
+    width: 100%;
     display: flex;
     margin: 0;
     padding: 0;
