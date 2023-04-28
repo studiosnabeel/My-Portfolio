@@ -26,7 +26,7 @@ const workfiles = [
       src: './Worksection Pics/codeeasy.PNG',
       alt: 'First Project demo',
     },
-    title: 'Tonic',
+    title: 'Code Easy',
     type: ['Education', 'Front End', '2022'],
     description:
       'Code Easy is an Online teaching website created for students to learn software development. It is created using HTML CSS and Vanilla JavaScript. ',
@@ -52,7 +52,7 @@ const workfiles = [
     id: 'Three',
     img: {
       src: './Worksection Pics/pocketpal.PNG',
-      alt: 'Third Project demo',
+      alt: 'Pocket Pal',
     },
     title: 'PocketPal',
     type: ['Budget', 'Full Stack Dev', '2023'],
