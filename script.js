@@ -86,7 +86,7 @@ function popUp() {
 
     <div class="pop-container" 
     files-target="${files.id}">
-    <i class="fa fa-close" style="font-size:24px"></i>
+    <i class="fa fa-close" id="crossClose" style="font-size:24px"></i>
     <h2>${files.title}</h2> 
 
 
