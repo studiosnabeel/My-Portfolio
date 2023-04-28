@@ -620,11 +620,9 @@ section .languages {
   display: flex;
   align-items: center;
   color: #738da8;
-  /* padding-left: 50%; */
 }
 
 .fa-chevron-right {
-  /* padding-left: 46%; */
   display: flex;
   align-items: center;
   color: #738da8;
