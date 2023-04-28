@@ -23,6 +23,16 @@ body {
   border-bottom-left-radius: 23px;
 }
 
+.logo-h1 {
+  color: #6070ff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.logo-nav {
+  text-decoration: none;
+}
+
 nav ul {
   display: none;
 }
@@ -893,13 +903,14 @@ footer .btn:active {
     list-style-type: none;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
     color: #344563;
   }
 
   nav ul li a {
     color: #344563;
     transition: all 0.3s ease-in-out;
+    letter-spacing: 1px;
   }
 
   .btn a {
@@ -907,11 +918,11 @@ footer .btn:active {
   }
 
   nav ul li a:hover {
-    transform: scale(1.1);
-    background-color: #344563;
+    background-color: #6070ff;
     color: white;
     border: 2px solid #fff;
-    border-radius: 4px;
+    border-radius: 10px;
+    padding: 6px;
   }
 
   .logo-nav {
