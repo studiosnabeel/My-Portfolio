@@ -23,50 +23,58 @@ const workfiles = [
   {
     id: 'One',
     img: {
-      src: './Worksection Pics/dsk1.png',
+      src: './Worksection Pics/codeeasy.PNG',
       alt: 'First Project demo',
     },
-    title: 'Tonic',
-    type: ['CANOPY', 'Back End', '2015'],
+    title: 'Code Easy',
+    type: ['Education', 'Front End', '2022'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to ',
-    technologies: ['HTML', 'CSS', 'Javascript'],
+      'Code Easy is an Online teaching website created for students to learn software development. It is created using HTML CSS and Vanilla JavaScript. ',
+    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    live: 'https://studiosnabeel.github.io/codeeasy/',
+    source: 'https://github.com/studiosnabeel/codeeasy',
   },
   {
     id: 'Two',
     img: {
-      src: './Worksection Pics/dsk2.png',
-      alt: 'Second Project demo',
+      src: './Worksection Pics/Movies.png',
+      alt: 'Movie Nights Poster',
     },
     title: 'Multi-Post Stories',
-    type: ['FACEBOOK', 'Full Stack Dev', '2015'],
+    type: ['Movies', 'Front End Dev', '2022'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to ',
+      'Movie Nights is a Single page app where users can watch latest movies. Modular JavaScript was applied for this project. ',
     technologies: ['HTML', 'CSS', 'Javascript'],
+    live: 'https://studiosnabeel.github.io/groupCapstone/dist/',
+    source: 'https://github.com/studiosnabeel/groupCapstone',
   },
   {
     id: 'Three',
     img: {
-      src: './desktopPics/newsnap.png',
-      alt: 'Third Project demo',
+      src: './Worksection Pics/pocketpal.PNG',
+      alt: 'Pocket Pal',
     },
-    title: 'Facebook 360',
-    type: ['CANOPY', 'BACKEND DEV', '2015'],
+    title: 'PocketPal',
+    type: ['Budget', 'Full Stack Dev', '2023'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to ",
-    technologies: ['HTML', 'CSS', 'Javascript'],
+      'This Rails Full-stack app is a expenses tracking app. It supports user registration and authentication using the Devise gem.',
+    technologies: ['Rails', 'Ruby', 'PostgreSQL'],
+    live: 'https://mysite-g8gc.onrender.com/',
+    source: 'https://github.com/studiosnabeel/budget-app',
   },
   {
     id: 'Four',
     img: {
-      src: './Worksection Pics/dsk4.png',
+      src: './Worksection Pics/Coutries.png',
       alt: 'Fourth Project demo',
     },
-    title: 'Uber Navigation',
-    type: ['UBER', 'Lead Developer', '2018'],
+    title: 'Countries Stats',
+    type: ['Stats', 'Front End Dev', '2022'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
-    technologies: ['HTML', 'CSS', 'Javascript'],
+      'This React-Redux application fetches data of Countries from an API and shows All Countries population and capitals. And it also shows details about a certain country when user clicks on it.',
+    technologies: ['React', 'Redux', 'CSS'],
+    live: 'https://countries-stats.netlify.app/',
+    source: 'https://github.com/studiosnabeel/PopulationStats0fCountries',
   },
 ];
 
@@ -102,8 +110,8 @@ function popUp() {
         </ul>
         <hr>
         <div class="pop-button">
-          <button><a href="https://studiosnabeel.github.io/">See Live</a><img src="./Pictures/Social/icon-see-live.png"></button>
-          <button><a href="https://github.com/studiosnabeel/studiosnabeel.github.io">See Source</a><img src="./Pictures/Social/icon-see-source.png"></button>
+          <button><a class='pop-a' href="${files.live}">See Live</a><img src="./Pictures/Social/icon-see-live.png"></button>
+          <button><a class='pop-a' href="${files.source}">See Source</a><img src="./Pictures/Social/icon-see-source.png"></button>
         </div>
       </div>
     </div>
