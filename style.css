@@ -39,7 +39,12 @@ body {
 }
 
 .logo-nav {
+  width: 100%;
   text-decoration: none;
+}
+
+.burger {
+  text-align: end;
 }
 
 nav ul {
@@ -178,9 +183,8 @@ nav ul li a {
 nav {
   width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: 0 24px;
+  padding: 0 20px;
 }
 
 .hero-container {
@@ -204,6 +208,7 @@ nav {
 }
 
 .hero h1 {
+  width: 100%;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -259,14 +264,13 @@ footer h2 {
   align-items: center;
   width: 100%;
   padding: 0 20px;
-  margin-top: 125px;
+  margin-top: 50px;
   gap: 88px;
   background-color: #f7f7f9;
 }
 
 .work p {
   text-align: start;
-  height: 76px;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -303,6 +307,7 @@ footer h2 {
 }
 
 .letsConnect {
+  width: 100%;
   text-decoration: none;
 }
 
@@ -885,16 +890,15 @@ footer .btn:active {
     transform: rotate(-10deg);
   }
 
-  nav {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  nav ul {
-    width: 60%;
+  .nav-ul {
+    width: 50%;
     display: flex;
     justify-content: flex-end;
     gap: 24px;
+  }
+
+  nav {
+    padding: 0 40px;
   }
 
   nav ul li {
@@ -924,10 +928,6 @@ footer .btn:active {
     padding: 6px;
   }
 
-  .logo-nav {
-    margin: 0 0 0 120px;
-  }
-
   .hero {
     align-items: center;
     justify-content: center;
@@ -949,7 +949,7 @@ footer .btn:active {
   }
 
   .hero p {
-    width: 70%;
+    width: 100%;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -969,11 +969,24 @@ footer .btn:active {
   }
 
   .hero h2 {
-    width: 70%;
+    width: 100%;
+  }
+
+  .div-hero {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 
   .hero-socialcontainer {
-    width: 70%;
+    width: 100%;
+  }
+
+  .work {
+    margin-top: 0;
   }
 
   #work-article-1 {
