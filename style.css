@@ -214,7 +214,7 @@ nav {
 }
 
 footer p {
-  width: 80%;
+  width: 100%;
   margin: 19px 0;
   font-style: normal;
   font-weight: 400;
@@ -230,7 +230,7 @@ footer p {
 }
 
 footer h2 {
-  width: 80%;
+  width: 100%;
   margin-top: 120px;
   font-style: normal;
   font-weight: 700;
@@ -638,9 +638,9 @@ footer h2 {
   color: #738da8;
 }
 
-footer {
+.contact-me {
   margin-top: 60px;
-  padding: 0;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -651,10 +651,11 @@ footer {
   background-color: #6070ff;
 }
 
-footer form {
+.form-js {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin: 60px 0;
 }
 
