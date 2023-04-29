@@ -258,8 +258,9 @@ footer h2 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 114px 24px;
-  margin: -100px 0;
+  padding: 0 24px;
+  margin-top: 125px;
+  /* margin: -100px 0; */
   gap: 88px;
   background-color: #f7f7f9;
 }
@@ -644,7 +645,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(./Pictures/Final.svg) no-repeat;
+  background: url(./Pictures/FinalNew.svg) no-repeat;
   background-size: 100% auto;
   width: 100%;
   background-color: #6070ff;
