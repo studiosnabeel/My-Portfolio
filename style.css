@@ -258,9 +258,8 @@ footer h2 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 0 24px;
+  padding: 0 20px;
   margin-top: 125px;
-  /* margin: -100px 0; */
   gap: 88px;
   background-color: #f7f7f9;
 }
@@ -280,17 +279,16 @@ footer h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 16px;
+  padding: 10px 10px;
   gap: 12px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
-.card ul {
+.leftblock {
   list-style: none;
-  margin: -10px;
-  padding: 16px;
+  width: 100%;
 }
 
 .w3imgdt {
@@ -654,7 +652,7 @@ footer {
 footer form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin: 60px 0;
 }
 
@@ -669,7 +667,7 @@ footer form {
   font-weight: 400;
   font-size: 17px;
   margin: 8px 0;
-  padding: 0 0 0 16px;
+  padding: 0 10px;
 }
 
 label {
@@ -690,7 +688,7 @@ label {
   font-weight: 400;
   font-size: 17px;
   margin: 8px 0;
-  padding: 15px 0 0 16px;
+  padding: 10px;
 }
 
 .input::placeholder {
@@ -709,7 +707,7 @@ label {
   font-size: 15px;
 }
 
-footer .btn {
+.btn {
   width: 50%;
   height: 16%;
   padding: 0.75rem;
@@ -722,7 +720,6 @@ footer .btn {
   border: none;
   border-radius: 8px;
   text-align: center;
-  margin: 14px 136px 14px 0;
 }
 
 footer .btn:hover {
