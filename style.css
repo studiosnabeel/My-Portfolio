@@ -554,6 +554,8 @@ footer h2 {
 }
 
 .framework-dropdown-li {
+  text-align: center;
+  border-radius: 6px;
   list-style-type: none;
   width: 100%;
   color: black;
@@ -600,10 +602,11 @@ footer h2 {
 .skills-dropdown-ul {
   display: flex;
   width: 100%;
-  gap: 6px;
+  gap: 8px;
 }
 
 .skills-dropdown-li {
+  text-align: center;
   list-style-type: none;
   width: 100%;
   color: black;
@@ -611,6 +614,8 @@ footer h2 {
   border: 1px solid #6070ff;
   border-radius: 6px;
   font-size: 14px;
+  margin: 6px 0;
+  padding: 0 4px;
 }
 
 .tags a h3 {
