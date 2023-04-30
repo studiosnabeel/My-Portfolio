@@ -28,7 +28,7 @@ framework.addEventListener('click', () => {
 
 // skills dropdown toggle
 
-const skills = document.querySelector('#skills');
+const skills = document.querySelector('#skills-arrow');
 const skillsMenu = document.querySelector('#skills-menu');
 
 skills.addEventListener('click', () => {
