@@ -521,12 +521,6 @@ footer h2 {
   font-size: 20px;
   text-align: start;
   cursor: pointer;
-  transition: all 0.5s ease-in;
-}
-
-.framework-button:hover {
-  background-color: white;
-  box-shadow: 2px 5px 20px 4px rgb(96, 112, 255, 0.6);
 }
 
 .framework-dropdown {
@@ -573,12 +567,6 @@ footer h2 {
   font-size: 20px;
   text-align: start;
   cursor: pointer;
-  transition: all 0.5s ease-in;
-}
-
-.skills-button:hover {
-  background-color: white;
-  box-shadow: 2px 5px 20px 4px rgb(96, 112, 255, 0.6);
 }
 
 .skills-dropdown {
