@@ -727,7 +727,7 @@ footer h2 {
 }
 
 .fa-chevron-down {
-  width: 12px;
+  width: 20px;
   height: 12px;
   display: flex;
   align-items: center;
@@ -737,8 +737,7 @@ footer h2 {
 .fa-chevron-down.anti-rotate {
   color: #6070ff;
   transform: rotateZ(-90deg);
-  background-color: white;
-  box-shadow: 2px 5px 20px 4px rgb(96, 112, 255, 0.6);
+  box-shadow: 6px 2px 20px 6px rgb(96, 112, 255, 0.6);
 }
 
 .arrow-container {
