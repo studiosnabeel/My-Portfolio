@@ -512,6 +512,107 @@ footer h2 {
   text-align: start;
 }
 
+.framework-button {
+  display: flex;
+  border: none;
+  background-color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: start;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+
+.framework-button:hover {
+  background-color: white;
+  box-shadow: 2px 5px 20px 4px rgb(96, 112, 255, 0.6);
+}
+
+.framework-dropdown {
+  width: 0;
+  height: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  padding: 0.4rem;
+  opacity: 0;
+  transition: opacity 600ms ease-in-out;
+  overflow: hidden;
+}
+
+.framework-dropdown.open-framework-dropdown {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+}
+
+.framework-dropdown-ul {
+  gap: 6px;
+  display: flex;
+  width: 70%;
+}
+
+.framework-dropdown-li {
+  list-style-type: none;
+  width: 100%;
+  color: black;
+  background-color: #f7f7f9;
+  border: 1px solid #6070ff;
+  font-size: 17px;
+}
+
+.skills-button {
+  display: flex;
+  border: none;
+  background-color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: start;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+
+.skills-button:hover {
+  background-color: white;
+  box-shadow: 2px 5px 20px 4px rgb(96, 112, 255, 0.6);
+}
+
+.skills-dropdown {
+  width: 0;
+  height: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  padding: 0.3rem;
+  opacity: 0;
+  transition: opacity 600ms ease-in-out;
+  overflow: hidden;
+}
+
+.skills-dropdown.open-skills-dropdown {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+}
+
+.skills-dropdown-ul {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.skills-dropdown-li {
+  list-style-type: none;
+  width: 100%;
+  color: black;
+  background-color: #f7f7f9;
+  border: 1px solid #6070ff;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
 .tags a h3 {
   height: 16px;
   font-style: normal;
