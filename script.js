@@ -17,6 +17,24 @@ menuLinks.forEach((item) => {
   });
 });
 
+// framework dropdown toggle
+
+const framework = document.querySelector('#framework');
+const frameworkMenu = document.querySelector('#framework-menu');
+
+framework.addEventListener('click', () => {
+  frameworkMenu.classList.toggle('open-framework-dropdown');
+});
+
+// skills dropdown toggle
+
+const skills = document.querySelector('#skills');
+const skillsMenu = document.querySelector('#skills-menu');
+
+skills.addEventListener('click', () => {
+  skillsMenu.classList.toggle('open-skills-dropdown');
+});
+
 // details popup window
 
 const workfiles = [
