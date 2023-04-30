@@ -707,6 +707,16 @@ footer h2 {
 
 .lang-row {
   width: 100%;
+  transition: opacity 600ms ease-in-out;
+}
+
+.lang-row.close-lang-menu {
+  padding: 0.4rem;
+  opacity: 0;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  margin-top: 30px;
 }
 
 .lang-skills {
@@ -724,6 +734,17 @@ footer h2 {
   color: #738da8;
 }
 
+.fa-chevron-down.anti-rotate {
+  color: #6070ff;
+  transform: rotateZ(-90deg);
+  background-color: white;
+  box-shadow: 2px 5px 20px 4px rgb(96, 112, 255, 0.6);
+}
+
+.arrow-container {
+  display: inline-block;
+}
+
 .fa-chevron-right {
   display: flex;
   align-items: center;
@@ -732,7 +753,7 @@ footer h2 {
   cursor: pointer;
 }
 
-.fa-chevron-right:hover {
+.fa-chevron-right.rotate {
   color: #6070ff;
   transform: rotateZ(90deg);
   background-color: white;

@@ -336,9 +336,9 @@
       <section class="languages">
         <div class="lang-div">
           <h2>Languages</h2>
-          <i class="fa-solid fa-chevron-down"></i>
+          <i class="fa-solid fa-chevron-down" id="arrow-up"></i>
         </div>
-        <div class="lang-row">
+        <div class="lang-row" id="lang-menu">
           <div class="lang-divs" id="lang">
             <img src="./Languages Pictures/JS.png" alt="Javascript logo" />
             <h3>Javascript</h3>
@@ -362,10 +362,10 @@
         </div>
 
         <div class="lang-skills">
-          <button class="framework-button" >
-            Frameworks/Libraries
-          </button>
-          <i class="fa-solid fa-chevron-right" id="framework"></i>
+          <button class="framework-button">Frameworks/Libraries</button>
+          <div class="arrow-container">
+            <i class="fa-solid fa-chevron-right" id="framework"></i>
+          </div>
         </div>
         <div class="framework-dropdown" id="framework-menu">
           <ul class="framework-dropdown-ul">
@@ -384,7 +384,9 @@
 
         <div class="lang-skills">
           <button class="skills-button" id="skills">Skills</button>
-          <i class="fa-solid fa-chevron-right" id="skills-arrow"></i>
+          <div class="arrow-container">
+            <i class="fa-solid fa-chevron-right" id="skills-arrow"></i>
+          </div>
         </div>
         <div class="skills-dropdown" id="skills-menu">
           <ul class="skills-dropdown-ul">

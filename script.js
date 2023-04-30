@@ -17,12 +17,23 @@ menuLinks.forEach((item) => {
   });
 });
 
+// languages close toggle
+
+const langArrowClick = document.querySelector('#arrow-up');
+const langMenu = document.querySelector('#lang-menu');
+
+langArrowClick.addEventListener('click', () => {
+  langArrowClick.classList.toggle('anti-rotate');
+  langMenu.classList.toggle('close-lang-menu');
+});
+
 // framework dropdown toggle
 
 const framework = document.querySelector('#framework');
 const frameworkMenu = document.querySelector('#framework-menu');
 
 framework.addEventListener('click', () => {
+  framework.classList.toggle('rotate');
   frameworkMenu.classList.toggle('open-framework-dropdown');
 });
 
@@ -32,6 +43,7 @@ const skills = document.querySelector('#skills-arrow');
 const skillsMenu = document.querySelector('#skills-menu');
 
 skills.addEventListener('click', () => {
+  skills.classList.toggle('rotate');
   skillsMenu.classList.toggle('open-skills-dropdown');
 });
 
