@@ -1154,11 +1154,11 @@ label {
   .snapshot {
     width: 100%;
     flex: 1;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
   }
 
   .snapshot:hover {
-    transform: scale(1.06);
+    transform: scale(1.1);
   }
 
   .leftblock {
