@@ -537,6 +537,13 @@ footer h2 {
   border: 1px solid #6070ff;
   font-size: 17px;
   padding: 8px 0;
+  transition: transform 0.5 ease-in-out;
+}
+
+.framework-dropdown-li:hover {
+  background-color: #6070ff;
+  color: white;
+  transform: scale(1.1);
 }
 
 .skills-button {
@@ -584,6 +591,13 @@ footer h2 {
   border-radius: 6px;
   font-size: 14px;
   padding: 10px 4px;
+  transition: transform 0.5 ease-in-out;
+}
+
+.skills-dropdown-li:hover {
+  background-color: #6070ff;
+  color: white;
+  transform: scale(1.1);
 }
 
 .tags a h3 {
