@@ -254,6 +254,14 @@ footer h2 {
   list-style-type: none;
 }
 
+.social-icons-all {
+  transition: transform 0.1s ease-in;
+}
+
+.social-icons-all:hover {
+  transform: scale(1.5);
+}
+
 .work {
   min-width: 100%;
   display: grid;
