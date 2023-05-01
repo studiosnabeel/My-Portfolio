@@ -458,34 +458,13 @@ footer h2 {
   width: 100%;
 }
 
-.tag1 {
+.tag {
   text-decoration: none;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 4px 8px;
-  background: #ebebff;
-  border-radius: 8px;
-}
-
-.tag2 {
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 8px;
-  width: 45px;
-  background: #ebebff;
-  border-radius: 8px;
-}
-
-.tag3 {
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 2px;
-  width: 89px;
   background: #ebebff;
   border-radius: 8px;
 }
@@ -541,9 +520,11 @@ footer h2 {
 }
 
 .framework-dropdown-ul {
+  display: flex;
+  flex-direction: column;
   gap: 6px;
   display: flex;
-  width: 70%;
+  width: 100%;
 }
 
 .framework-dropdown-li {
@@ -555,6 +536,7 @@ footer h2 {
   background-color: #f7f7f9;
   border: 1px solid #6070ff;
   font-size: 17px;
+  padding: 8px 0;
 }
 
 .skills-button {
@@ -587,6 +569,7 @@ footer h2 {
 
 .skills-dropdown-ul {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   gap: 8px;
 }
@@ -600,8 +583,7 @@ footer h2 {
   border: 1px solid #6070ff;
   border-radius: 6px;
   font-size: 14px;
-  margin: 6px 0;
-  padding: 0 4px;
+  padding: 10px 4px;
 }
 
 .tags a h3 {
@@ -1227,6 +1209,10 @@ label {
     font-weight: 500;
     font-size: 15px;
     text-align: center;
+  }
+
+  .framework-dropdown-ul {
+    flex-direction: row;
   }
 
   footer {
