@@ -42,6 +42,7 @@
 
 ## Live Demo 
 
+- [Live Demo](https://studiosnabeel.netlify.app/)
 - [Live Demo](https://studiosnabeel.github.io/My-Portfolio/)
 
 ## Getting Started 
