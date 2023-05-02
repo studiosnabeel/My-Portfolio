@@ -140,8 +140,8 @@ function popUp() {
         </ul>
         <hr>
         <div class="pop-button">
-          <button><a class='pop-a' href="${files.live}">See Live</a><img src="./Pictures/Social/icon-see-live.png"></button>
-          <button><a class='pop-a' href="${files.source}">See Source</a><img src="./Pictures/Social/icon-see-source.png"></button>
+          <button><a class='pop-a' href="${files.live}" target='_blank'>See Live</a><img src="./Pictures/Social/icon-see-live.png"></button>
+          <button><a class='pop-a' href="${files.source}" target='_blank'>See Source</a><img src="./Pictures/Social/icon-see-source.png"></button>
         </div>
       </div>
     </div>
