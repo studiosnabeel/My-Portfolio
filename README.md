@@ -42,7 +42,7 @@
 
 ## Live Demo 
 
-- [Live Demo](https://studiosnabeel.netlify.app/)
+- [Live Demo](https://nabeel-akbar-portfolio.netlify.app/)
 
 ## Getting Started 
 
