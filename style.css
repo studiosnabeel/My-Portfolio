@@ -30,6 +30,14 @@ body {
   display: flex;
   min-height: 7vh;
   border-bottom-left-radius: 23px;
+  transition: all 0.5s;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 1;
 }
 
 .logo-h1 {

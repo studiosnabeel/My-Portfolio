@@ -17,6 +17,23 @@ menuLinks.forEach((item) => {
   });
 });
 
+// Navbar fixed when scroll
+
+const navbar = document.getElementById('toolbar');
+const sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add('fixed');
+  } else {
+    navbar.classList.remove('fixed');
+  }
+}
+
+window.onscroll = () => {
+  myFunction();
+};
+
 // languages close toggle
 
 const langArrowClick = document.querySelector('#arrow-up');
