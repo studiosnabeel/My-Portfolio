@@ -76,7 +76,7 @@ const workfiles = [
     title: 'Code Easy',
     type: ['Education', 'Front End', '2022'],
     description:
-      'Code Easy is an Online teaching website created for students to learn software development. It is created using HTML CSS and Vanilla JavaScript. ',
+      'Code Easy is an online teaching website created for students to learn software development. It is created using HTML, CSS and Vanilla JavaScript. ',
     technologies: ['HTML5', 'CSS3', 'JavaScript'],
     live: 'https://studiosnabeel.github.io/codeeasy/',
     source: 'https://github.com/studiosnabeel/codeeasy',
@@ -90,7 +90,7 @@ const workfiles = [
     title: 'Multi-Post Stories',
     type: ['Movies', 'Front End Dev', '2022'],
     description:
-      'Movie Nights is a Single page app where users can watch latest movies. Modular JavaScript was applied for this project. ',
+      'Movie Nights is a single page app where users can watch latest movies. Modular JavaScript was applied for this project. ',
     technologies: ['HTML', 'CSS', 'Javascript'],
     live: 'https://studiosnabeel.github.io/groupCapstone/dist/',
     source: 'https://github.com/studiosnabeel/groupCapstone',
@@ -104,7 +104,7 @@ const workfiles = [
     title: 'PocketPal',
     type: ['Budget', 'Full Stack Dev', '2023'],
     description:
-      'This Rails Full-stack app is a expenses tracking app. It supports user registration and authentication using the Devise gem.',
+      'This Rails Full-stack app is an expense tracking app. It supports user registration and authentication using the Devise gem.',
     technologies: ['Rails', 'Ruby', 'PostgreSQL'],
     live: 'https://mysite-g8gc.onrender.com/',
     source: 'https://github.com/studiosnabeel/budget-app',
