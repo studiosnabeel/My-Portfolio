@@ -60,23 +60,25 @@ cd My-Portfolio
 
 ### Deployment
 
-To deploy your portfolio website on GitHub Pages, follow these steps:
+To deploy your portfolio website on Netlify.com, follow these steps:
 
-1. Push your modified repository to GitHub:
+- Create a Netlify Account: If you don't have a Netlify account already, visit the Netlify website and sign up for a free account.
 
-git add .
-git commit -m "Updated portfolio website"
-git push origin master
+- Connect your GitHub Repository: In your Netlify account, click on "New site from Git" and choose GitHub as your Git provider. Select the repository you want to deploy.
 
-2. Go to your repository on GitHub and navigate to the "Settings" tab.
+- Configure Build Settings: Once your repository is connected, you'll need to configure the build settings. Set the branch you want to deploy and specify the build command, such as npm run build or yarn build.
 
-3. Scroll down to the "GitHub Pages" section.
+- Set Environment Variables (if necessary): If your website requires environment variables, you can set them in the Netlify dashboard. This is useful for sensitive information like API keys or configuration settings.
 
-4. Select the branch you want to deploy (e.g., "master") from the dropdown menu.
+- Review Deployment Settings: Review the deployment settings and make any necessary changes, such as custom domain configuration or branch deploys.
 
-5. Click on "Save" or "Choose" to enable GitHub Pages.
+- Deploy your Website: Click on the "Deploy site" button, and Netlify will initiate the build process. You can track the progress in the deployment logs.
 
-6. Your portfolio website will now be deployed and accessible at `https://your-username.github.io/portfolio-website`.
+- Monitor Deployment: Once the build is complete, Netlify will provide you with a unique URL for your deployed website. You can access and preview your site from this URL.
+
+- Custom Domain (Optional): If you have a custom domain, you can configure it in the Netlify settings. This will allow your website to be accessible via your own domain name.
+
+- Continuous Deployment (Optional): Netlify provides continuous deployment, which means that whenever you push changes to your connected GitHub repository, Netlify will automatically rebuild and deploy your website.
 
 ## Author
 
