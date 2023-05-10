@@ -19,7 +19,7 @@
 # PortFolio
 
 
-**Portfolio** is a fully Responsive mobile first website created with HTML5 CSS3 and JavaScript. This web application has a Hero section, Work section showcasing some of my Projects that I have worked on using different web technologies, About Section,Skill section and Contact Section to get in touch with me.
+**My-portfolio**  is a mobile-first website. It is fully responsive and created using HTML5, CSS3, and JavaScript. Its purpose is to provide information about Nabeel Akbar, a full-stack developer. The site features a Hero section, a Work section showcasing some of his most notable projects completed using various web technologies, an About section, a Skill section, and a Contact section. The overall design and functionality of the site prioritize ease-of-use and accessibility across all devices. Visitors can quickly and easily find information about Nabeel's experience, skills, and past projects. For any inquiries or to get in touch, the Contact section provides multiple methods of communication. Thank you for visiting. Please do not hesitate to reach out with any feedback.
 
 ## Built With
 
